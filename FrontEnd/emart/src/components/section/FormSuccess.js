@@ -4,13 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 import useForm from './useForm';
 const FormSuccess = ({}) => {
   
-  // useEffect(() => {
 
-   
-   
-  // });
-
-  
 
   return (
     <div className='form-content-right'>

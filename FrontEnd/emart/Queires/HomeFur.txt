@@ -1,0 +1,99 @@
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values
+( 46,"Okra Sunflower King Box Bed", "Okra Sunflower Engineered Wood King Box Bed (Finish Color - African Walnut)", 18790, 18790, 18000, 800, "Images/HomeFurniture/Bed/hfbOkraSunflowerKingBoxBed.jpeg", 20, 1);
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values( 46,"Barewether Maple King Box Bed", "Barewether Maple Engineered Wood King Box Bed (Finish Color - Wenge)", 14090, 13400, 13500, 750, "Images/HomeFurniture/Bed/hfbBarewetherMapleKingBoxBed.jpeg", 25, 2);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(46, "FurnitureKraft King Bed", "FurnitureKraft Nancy Metal King Bed (Finish Color - Black)", 8732, 7732, 8000, 500, "Images/HomeFurniture/Bed/hfbFurnitureKraftKingBed.jpeg", 30, 3);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(47 , "Forzza Jasper Queen Bed", "Forzza Jasper Engineered Wood Queen Bed (Finish Color - Wenge)", 12999, 11799, 12500, 650, "Images/HomeFurniture/Bed/hfbForzzaJasperQueenBed.jpeg", 35, 3);
+ 
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(47 , "SPACEWOOD Queen Bed", "SPACEWOOD Engineered Wood Queen Box Bed  (Finish Color - Natural Teak)", 20263, 17863, 19500, 700, "Images/HomeFurniture/Bed/hfbSPACEWOODQueenBed.jpeg", 35, 3),  (47 , "Atmosphere Queen Bed","Atmosphere Engineered Wood Queen Box Bed  (Finish Color - Brown)", 34999, 17500, 33999, 800, "Images/HomeFurniture/Bed/hfbAtmosphereQueenBed.jpeg", 23, 5);
+ 
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(48 , "Forzza George Single Drawer Bed","Forzza George Engineered Wood Single Drawer Bed  (Finish Color - Black)", 9999, 9999, 9499, 600, "Images/HomeFurniture/Bed/hfbForzzaGeorgeSingleDrawerBed.jpeg", 28, 1);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(48 , "SPACEWOOD Single Drawer Bed","SPACEWOOD Single Drawer Bed SPACEWOOD Engineered Wood Single Box Bed  (Finish Color - Walnut Rigato)", 8387, 7900, 8000, 500, "Images/HomeFurniture/Bed/hfbSPACEWOODSingleDrawerBed.jpeg", 30, 2);
+  
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(48 , "Barewether Boston Single Drawer Bed","Barewether Boston Engineered Wood Single Box Bed  (Finish Color - White)", 9552, 8652, 9220, 600,"Images/HomeFurniture/Bed/hfbBarewetherBostonSingleDrawerBed.jpeg", 30, 3);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(49, "WESTIDO 2 Seater Sofa","WESTIDO Savannah Leatherette 2 Seater Sofa  (Finish Color - Brown)", 9000, 9050, 8800, 500,"Images/HomeFurniture/Sofa/hfsWESTIDO2SeaterSofa.jpeg", 25, 2);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(49, "Nilkamal 2 Seater Sofa","Nilkamal Goa Sofa Fabric 2 Seater Sofa  (Finish Color - Season Rust Brown)", 9299, 6975, 9000, 550,"Images/HomeFurniture/Sofa/hfsNilkamal2SeaterSofa.jpeg", 25, 4);
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(49 , "Mofi 2 Seater Sofa","Mofi sofas Fabric 2 Seater Sofa  (Finish Color - Grey)", 8999, 4500, 8999, 650,"Images/HomeFurniture/Sofa/hfsMofi2SeaterSofa.jpeg", 26, 5);
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(50, "ELTOP  4 Seater Sofa","ELTOP Lifestyle Nano Fabric 4 Seater Sofa  (Finish Color - Cream,Black)", 19999, 17999, 18999, 750,"Images/HomeFurniture/Sofa/hfsELTOP4SeaterSofa.jpeg", 23, 3);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(50 , "FURNY Bellino  4 Seater Sofa","FURNY Bellino Interchangeable L Shape Fabric 4 Seater Sofa  (Finish Color - Dark Blue)", 21051, 15800, 20500, 700,"Images/HomeFurniture/Sofa/hfsFURNYBellino4SeaterSofa.jpeg", 28, 4);
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(50 , "CasaStyle  4 Seater Sofa","CasaStyle Lauren 4 Seater Interchangable L Shape Sofa Set (Light Grey) Fabric 4 Seater Sofa  (Finish Color - Light Grey)", 17164, 16364, 17000, 750, "Images/HomeFurniture/Sofa/hfsCasaStyle4SeaterSofa.jpeg", 30, 2);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(51 , "Sofame Rio Sofa Sectional Bed","Sofame Rio Double Sofa Sectional Bed  (Finish Color - Silver Mechanism Type - Pull Out)", 30917, 30917, 30450, 800,"Images/HomeFurniture/Sofa/hfsSofameRioSofaSectionalBed.jpeg", 20, 1);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(51 , "Seventh Heaven Sofa Sectional Bed","Seventh Heaven 4×6 Molfino Fabric 2 Seater Sofa cum Bed with 2 Cushions Double Sofa Bed  (Finish Color - Green Mechanism Type - Fold Out)", 7499, 3750, 7000, 600, "Images/HomeFurniture/Sofa/hfsSeventhHeavenSofaSectionalBed.jpeg", 25, 5);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(51 , "METSMITH Sofa Sectional Bed","METSMITH Sofa Sectional Bed METSMITH Neo Double Solid Wood Sofa Bed  (Finish Color - Dark Grey Mechanism Type - Fold Out)", 17990, 13500, 17000, 600, "Images/HomeFurniture/Sofa/hfsMETSMITHSofaSectionalBed.jpeg", 23, 4);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(52 , "Ananya furniture Dining Set","Ananya furniture Solid Wood 2 Seater Dining Set  (Finish Color - Walnut)", 16990, 15390, 16000, 650,"Images/HomeFurniture/DiningSet/hfdAnanyaFurnitureDiningSet.jpeg", 26, 3);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(52 , "Balaji Dining Set","Balaji Wooden Sheesham Wood Solid Wood 2 Seater Dining Set  (Finish Color - Provincial Teak)", 30875, 27875, 30000, 700,"Images/HomeFurniture/DiningSet/hfdBalajiDiningSet.jpeg", 20, 3);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(52 , "DriftingWood Dining Set","DriftingWood Solid Wood 2 Seater Dining Set  (Finish Color - Walnut)", 8099, 7600, 7790, 550,"Images/HomeFurniture/DiningSet/hfdDriftingWoodDiningSet.jpeg", 30, 2);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(53, "RoyalOak Dining Set","RoyalOak Poznan Metal 4 Seater Dining Set  (Finish Color - Black)", 16175, 14575, 15750, 600,"Images/HomeFurniture/DiningSet/hfdRoyalOakDiningSet.jpeg", 28, 3);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(53 , "KRIJEN Dining Set","KRIJEN Ashton Metal 4 Seater Dining Set  (Finish Color - Red)", 13484, 12784, 13000, 550,"Images/HomeFurniture/DiningSet/hfdKRIJENDiningSet.jpeg", 25, 2);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(53, "Induscraft Dining Set","Induscraft Sheesham Wood Solid Wood 4 Seater Dining Set  (Finish Color - Brown)", 38236, 34236, 38000, 800,"Images/HomeFurniture/DiningSet/hfdInduscraftDiningSet.jpeg", 22, 3);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(54, "Deuba Dining Set","Deuba Solid Wood 8 Seater Dining Set  (Finish Color - Provincial Teak Finish)", 34999, 34999, 34000, 700,"Images/DiningSet/hfdDeubaDiningSet.jpeg", 20, 1);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(54 , "WOODNESS Dining Set","WOODNESS Solid Wood 8 Seater Dining Set  (Finish Color - Dark Walnut)", 47270, 23500, 47000, 800,"Images/HomeFurniture/DiningSet/hfdWOODNESSDiningSet.jpeg", 21, 5);
+
+
+insert into product(catmasterID, prodName,  prodShortDesc, mrpPrice, offerPrice, cardholdersPrice, pointsToBeRedm, productImagePath, qtyOfInventory, offerId)
+values(54 , "Durian SIBERIAN Dining Set","Durian SIBERIAN/A Stone 8 Seater Dining Set  (Finish Color - Cream)", 223680, 113340, 215000, 1000,"Images/HomeFurniture/DiningSet/hfdDurianSIBERIANDiningSet.jpeg", 10, 5);

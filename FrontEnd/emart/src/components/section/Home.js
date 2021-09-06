@@ -28,24 +28,28 @@ export class Home extends Component {
         return (
             
             <div id="Home">
-                <Carousel style={{ width: '50%' }} >
+                <Carousel style={{ width: '70%' }} >
                     <Carousel.Item interval={3000}>
+                    <a href="/Canon/16">
                         <img
                             className="d-block w-100"
                             src="./Images/camerabanner3.jpg"
                             alt="First slide"
                         />
+                        </a>
                         <Carousel.Caption style={{ color: 'black' }}>
                             <h3></h3>
 
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
+                    
                         <img
                             className="d-block w-100"
                             src="./Images/banner-casio-watches.jpg"
                             alt="Second slide"
                         />
+                    
                         <Carousel.Caption style={{ color: 'black' }}>
                             <h3></h3>
                         </Carousel.Caption>
@@ -53,7 +57,7 @@ export class Home extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="./Images/homefurniturebanner4.jpg"
+                            src="./Images/horizontal-banner-online-fashion-sale.jpg"
                             alt=""
                         />
                         <Carousel.Caption style={{ color: 'black' }}>
