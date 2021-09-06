@@ -1,0 +1,164 @@
+<header>
+<div className="menu" onClick={this.menuToggle}>
+                    <img src={Menu} alt="" width="20" />
+                </div>
+                <div className="menu" onClick={this.menuToggle}>
+                    <img src={Menu} alt="" width="20"/>
+                </div>
+                <div className="logo">
+                    <h1><Link to="/">Nike</Link></h1>
+                </div>
+                <nav>
+                    <ul className={toggle ? "toggle" : ""}>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/product">Product</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/login">Login / Register</Link></li>
+                        <li className="close" onClick={this.menuToggle} >
+                            <img src={Close} alt="" width="20"/>
+                        </li>
+                    </ul>
+                    <div className="nav-cart">
+                        <span>{cart.length}</span>
+                        <Link to="/cart">
+                            <img src={CartIcon} alt="" width="20"/>
+                        </Link>
+                    </div>
+                </nav>
+            </header>
+
+            <Link to={`/${category._id}`}>
+                                    <img src={category.src} alt="" width="60" height="60" />
+                                </Link>
+
+
+
+                                export class Subcategory extends React.Component {
+    constructor(props) {
+             super(props);
+   const str=new URL(window.location.href);
+   const hylink=str.pathname.substring(1,str.pathname.length-1);
+   }
+   render() {
+     return (
+       <div id="Subcategory" style={{textAlign:'center',color: 'black'}}>
+         <h1 style={{margin:'0 0 25px 0'}}>{this.hylink}</h1>
+         <p></p>
+       </div>
+     );
+   }
+ }
+
+
+const bol = hylink.indexOf('/');
+        console.log(bol);
+        const sub11=hylink.substring(0,bol);
+        console.log(sub11);
+        const sub22=hylink.substring(bol+1,str.pathname.length);
+        console.log(sub22);
+        this.setState({sub1:sub11,sub2:sub22});
+        console.log(this.state.sub2);
+        console.log(this.state.sub1);
+
+
+ state = {
+        products: [
+            {
+                "_id": "1",
+                "title": "Fastrack Minimalists Analog Watch",
+                "src": "Watches/Analog/Fasttrack/WA_Fasttrack01.jpeg",
+                "description": "Fastrack 38024PP25 Minimalists Analog Watch - For Men",
+                "content": "",
+                "price":  850,
+                "colors": ["black"],
+                "count": 1
+            },
+            {
+                "_id": "2",
+                "title": "Nike Shoes 02",
+                "src": "https://www.upsieutoc.com/images/2020/06/27/img2.jpg",
+                "description": "UI/UX designing, html css tutorials",
+                "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+                "price": 19,
+                "colors": ["red", "crimson", "teal"],
+                "count": 1
+            },
+            {
+                "_id": "3",
+                "title": "Nike Shoes 03",
+                "src": "https://www.upsieutoc.com/images/2020/06/27/img3.jpg",
+                "description": "UI/UX designing, html css tutorials",
+                "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+                "price": 50,
+                "colors": ["lightblue", "white", "crimson", "teal"],
+                "count": 1
+            },
+            {
+                "_id": "4",
+                "title": "Nike Shoes 04",
+                "src": "https://www.upsieutoc.com/images/2020/06/27/img4.jpg",
+                "description": "UI/UX designing, html css tutorials",
+                "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+                "price": 15,
+                "colors": ["orange", "black", "crimson", "teal"],
+                "count": 1
+            },
+            {
+                "_id": "5",
+                "title": "Nike Shoes 05",
+                "src": "https://www.upsieutoc.com/images/2020/06/27/img5.jpg",
+                "description": "UI/UX designing, html css tutorials",
+                "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+                "price": 10,
+                "colors": ["orange", "black", "crimson", "teal"],
+                "count": 1
+            },
+            {
+                "_id": "6",
+                "title": "Nike Shoes 06",
+                "src": "https://www.upsieutoc.com/images/2020/06/27/img6.jpg",
+                "description": "UI/UX designing, html css tutorials",
+                "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+                "price": 17,
+                "colors": ["orange", "black", "crimson", "teal"],
+                "count": 1
+            }
+        ],
+        category: [
+            {
+                "_id": "1",
+                "subcat": "Analog",
+                "src": "Watches/Analog/Fasttrack/WA_Fasttrack01.jpeg",
+                "description": "Fastrack 38024PP25 Minimalists Analog Watch - For Men",
+                "content": "",
+                "price":  850,
+                "colors": ["black"],
+                "count": 1
+            },
+            {
+                "_id": "2",
+                "subcat": "Digital",
+                "src": "Watches/Digital/Casio/WD_Casio01.jpeg",
+                "description": "",
+                "content": "",
+                "price": 6595,
+                "colors": ["black"],
+                "count": 1
+            },
+            {
+                "_id": "3",
+                "subcat": "Smart Watch",
+                "src": "Watches/Smart/Apple/WS_Apple01.jpeg",
+                "description": "",
+                "content": "",
+                "price": 31490,
+                "colors": ["black"],
+                "count": 1
+            },
+            
+        ],
+        cart: [],
+        total: 0
+        
+    };

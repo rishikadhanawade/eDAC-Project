@@ -1,0 +1,38 @@
+create table CustomerMaster (
+custID int NOT NULL AUTO_INCREMENT primary key,
+ custName varchar(30) NOT NULL,
+ custAddress varchar(255) NOT NULL,
+ custPhoneNo BIGINT NOT NULL,
+ custUserID varchar(30) NOT NULL UNIQUE,
+ custPassword varchar(30) NOT NULL,
+ custEmailID varchar(30) NOT NULL UNIQUE,
+ eMCardNo int UNIQUE,
+ eMartPoints int 
+ );
+ 
+
+insert into customer values(1,"Mumbai","poojashah9091@gmail.com","Pooja","panipuri",9856789456,"pShah",12345,500);
+
+
+insert into Customer 
+( cust_Name, cust_Address, cust_PhoneNo, cust_Password, cust_Email_ID, eMCardNo, eMartPoints) 
+values
+("Leanne Graham", "Leanne Graham 711-2880 Nulla St.Mankato Mississippi 96522",8989797798, "password123", "LeanneGraham123@gmail.com", 1001, 500),
+ 
+("Ervin Howell", "Ervin Howell P.O. Box 283 8562 Fusce Rd.Frederick Nebraska 20620",8998797723, "password123", "ErvinHowell123@gmail.com", 1002, 750), 
+
+("Clementine Bauch", "Clementine Bauch 606-3727 Ullamcorper. Street Roseville NH 11523",8448797663, "password123", "ClementineBauch123@gmail.com", 1003, 600),
+
+("Patricia Lebsack", "Patricia Lebsack Ap #867-859 Sit Rd. Azusa New York 39531",8654797453, "password123", "PatriciaLebsack123@gmail.com", 1004, 800),
+
+("Chelsey Dietrich", "Chelsey Dietrich 7292 Dictum Av. San Antonio MI 47096",7655597486, "password123", "ChelseyDietrich123@gmail.com", 1005, 850),
+
+("Dennis Schulist", "Dennis Schulist Ap #651-8679 Sodales Av. Tamuning PA 10855",7654397488, "password123", "DennisSchulist123@gmail.com", 1006, 550), 
+
+("Glenna Reichert", "Glenna Reichert 191-103 Integer Rd. New Mexico 08219",9365497488, "password123", "GlennaReichert123@gmail.com", 1007, 620), 
+
+("Karl Eriksson", "Karl Eriksson P.O. Box 887 2508 Dolor. Av. Muskegon KY 12482",9333497453, "password123", "KarlEriksson123@gmail.com", 1008, 780), 
+
+("Lennart Johansson", "Lennart Johansson 511-5762 At Rd. Chelsea MI 67708",9865497453, "password123", "LennartJohansson123@gmail.com", 1009, 690), 
+
+("Adam Carter", "Adam Carter 935-9940 Tortor. Street Santa Rosa MN 98804",9765497453, "password123", "AdamCarter123@gmail.com", 1010, 610);

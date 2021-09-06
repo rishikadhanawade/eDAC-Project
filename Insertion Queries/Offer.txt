@@ -1,0 +1,13 @@
+CREATE TABLE Offer(OfferID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+			offerPercent INT NOT NULL
+			);
+INSERT INTO Offer(offerPercent )
+	VALUES (0);
+INSERT INTO Offer(offerPercent )
+	VALUES (5);
+INSERT INTO Offer(offerPercent )
+	VALUES (10);
+INSERT INTO Offer(offerPercent )
+	VALUES (25);
+INSERT INTO Offer(offerPercent )
+	VALUES (50);

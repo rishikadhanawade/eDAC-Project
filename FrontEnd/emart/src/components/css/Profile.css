@@ -1,0 +1,10 @@
+.error {
+    position: absolute;
+    color: red;
+    font-size: 0.80rem;
+  }
+
+.form-control:disabled, .form-control[readonly] {
+    background-color:white;
+    opacity: 1;
+}

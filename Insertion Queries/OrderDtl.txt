@@ -1,0 +1,8 @@
+------------------------------------------------------------------------------------------------
+
+create table OrderDtl(OrderDetailID int primary key,InvoiceOrder-id int,Other_shipping_addr varchar(250),Order_Date varchar(50),Delivery_Date varchar(50))
+
+insert into orderdtl (invoiceOrderID,otherShippingAddr,orderDate,deliveryDate) values(1,"Mumbai","20/01/2020","25/01/2020");
+insert into orderdtl (invoiceOrderID,otherShippingAddr,orderDate,deliveryDate) values(2,"Pune","02/03/2020","06/03/2020");
+insert into orderdtl (invoiceOrderID,otherShippingAddr,orderDate,deliveryDate) values(3,"Mumbai","12/10/2020","16/10/2020");
+insert into orderdtl (invoiceOrderID,otherShippingAddr,orderDate,deliveryDate) values(4,"Delhi","06/07/2020","11/07/2020");

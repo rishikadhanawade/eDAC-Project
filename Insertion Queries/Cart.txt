@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------------------------
+
+create table Cart(Cart-id int primary key,Cust-id int,Prod-id int,Qty int,TotalItemCost int,DeliveryCharge int,TotalDiscount int,TotalBill int);
+
+insert into cart(custid,productID,qty,totalItemCost,deliveryCharge,totalDiscount,totalBill) values(1,105,2,2000,20,50,1970);
+insert into cart(custid,productID,qty,totalItemCost,deliveryCharge,totalDiscount,totalBill) values(3,84,1,1590,50,40,1600);
+insert into cart(custid,productID,qty,totalItemCost,deliveryCharge,totalDiscount,totalBill) values(4,145,3,20000,50,50,20000);
+
+
+
+
+

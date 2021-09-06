@@ -1,0 +1,128 @@
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(750,24,850,2,800,200,"Fastrack Minimalists Analog Watch","Fastrack 38024PP25 Minimalists Analog Watch - For Men","Images/Watches/Analog/Fasttrack/WA_Fasttrack01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(795,24,895,2,800,200,"Fastrack Tees Analog Watch","Fastrack 38018PP02CJ Tees Analog Watch - For Men & Women","Images/Watches/Analog/Fasttrack/WA_Fasttrack02.jpeg",8);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(1650,24,1750,3,1750,500,"Fastrack Analog Watch","Fastrack 3121SM01 Analog Watch - For Men","Images/Watches/Analog/Fasttrack/WA_Fasttrack03.jpeg",5);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(1500,24,1650,4,1550,500,"Fastrack Analog Watch","Fastrack NG3121SL01 Analog Watch - For Men","Images/Watches/Analog/Fasttrack/WA_Fasttrack04.jpeg",20);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(1800,24,1995,5,1850,800,"Fastrack Trendies Analog Watch","Fastrack 68006PP01 Trendies Analog Watch - For Women","Images/Watches/Analog/Fasttrack/WA_Fasttrack05.jpeg",4);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(575,25,625,1,600,50,"SONATA Analog Watch","SONATA NF8976YL02J Analog Watch - For Women","Images/Watches/Analog/Sonata/WA_Sonata01.jpeg",20);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(500,25,550,2,525,50,"SONATA Analog Watch","SONATA NG8992PP03J Analog Watch - For Women","Images/Watches/Analog/Sonata/WA_Sonata02.jpeg",30);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(625,25,675,1,650,50,"SONATA Volt Analog Watch","SONATA 77085PP02 Volt Analog Watch - For Men","Images/Watches/Analog/Sonata/WA_Sonata03.jpeg",50);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(1149,25,1249,3,1999,250,"SONATA Analog Watch","SONATA 77106SM01 Analog Watch - For Men","Images/Watches/Analog/Sonata/WA_Sonata04.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(700,25,749,2,725,100,"SONATA Analog Watch","SONATA ND1013SM01C Analog Watch - For Men","Images/Watches/Analog/Sonata/WA_Sonata05.jpeg",15);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(5995,26,9995,4,6995,1200,"FOSSIL Stella Analog Watch","FOSSIL ES4079 Stella Analog Watch - For Women","Images/Watches/Analog/Fossil/WA_Fossil01.jpeg",5);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(3995,26,8995,5,4995,1000,"FOSSIL Copeland Analog Watch","FOSSIL FS5666 Copeland Analog Watch - For Men","Images/Watches/Analog/Fossil/WA_Fossil02.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(7495,26,9495,3,8935,1100,"FOSSIL Briggs Analog Watch","FOSSIL CH2927I Briggs Analog Watch - For Men","Images/Watches/Analog/Fossil/WA_Fossil03.jpeg",80);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(9000,26,12495,3,11495,2000,"FOSSIL Flynn Analog Watch","FOSSIL BQ2384 Flynn Analog Watch - For Men","Images/Watches/Analog/Fossil/WA_Fossil04.jpeg",29);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(7999,26,12495,4,9999,2500,"FOSSIL Bronson Analog Watch","FOSSIL FS5712 Bronson Analog Watch - For Men","Images/Watches/Analog/Fossil/WA_Fossil05.jpeg",4);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(3000,27,3295,1,3295,500,"CASIO Enticer Lady's Analog Watch","CASIO A1694 Enticer Lady's ( LTP-V300D-1A2UDF ) Analog Watch - For Women","Images/Watches/Analog/Casio/WA_Casio01.jpeg",4);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(2000,27,2375,2,2000,500,"CASIO Enticer Men's Analog Watch","CASIO Enticer Men's Analog Watch","Images/Watches/Analog/Casio/WA_Casio02.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(5000,27,5495,2,5000,500,"CASIO Edifice Analog Watch","CASIO EX302 Edifice ( EFR-526L-2AVUDF ) Analog Watch - For Men","Images/Watches/Analog/Casio/WA_Casio03.jpeg",4);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(1800,27,1995,2,1900,200,"CASIO Enticer Men's Analog Watch","CASIO A1767 (MTP-V006L-3BUDF) Enticer Men's Analog Watch - For Men","Images/Watches/Analog/Casio/WA_Casio04.jpeg",4);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(7995,27,8995,2,8000,1000,"CASIO Sheen Analog Watch","CASIO SX263 Sheen ( SHE-3047PG-9AUDR ) Analog Watch - For Women","Images/Watches/Analog/Casio/WA_Casio05.jpeg",4);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(2000,28,2095,2,2050,500,"Fastrack Trendies Digital Watch","Fastrack 38045PP02 Trendies Digital Watch - For Men","Images/Watches/Digital/Fastrack/WD_Fastrack01.jpeg",4);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(2100,28,2450,2,2200,200,"Fastrack Trendies Digital Watch","Fastrack 38047PP02 Trendies Digital Watch - For Men","Images/Watches/Digital/Fastrack/WD_Fastrack02.jpeg",40);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(1500,28,2020,3,1500,1000,"Fastrack Digital Watch","Fastrack 68004PP02 Digital Watch - For Women","Images/Watches/Digital/Fastrack/WD_Fastrack03.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(1555,28,1995,1,800,1955,"Fastrack Digital Watch","Fastrack SWD90059PP06 Digital Watch - For Boys & Girls","Images/Watches/Digital/Fastrack/WD_Fastrack04.jpeg",5);
+
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(6095,29,6595,1,6595,1000,"CASIO G340 G-Shock Digital Watch","CASIO G340 G-Shock ( GD-100GB-1DR ) Digital Watch - For Men","Images/Watches/Digital/Casio/WD_Casio01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(3995,29,3995,1,3995,500,"CASIO G905 G-Shock Digital Watch","CASIO G905 G-Shock ( DW-5600CC-2DR ) Digital Watch - For Men","Images/Watches/Digital/Casio/WD_Casio02.jpeg",21);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(6595,29,6995,1,6995,900,"CASIO BX028 BABY-G Digital Watch","CASIO BX028 BABY-G G-Lide Digital Watch - For Women","Images/Watches/Digital/Casio/WD_Casio03.jpeg",20);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(4995,29,4995,1,4995,800,"CASIO D185 Vintage Series Digital Watch","CASIO D185 (B640WBG-1BDF) Vintage Series Digital Watch - For Men & Women","Images/Watches/Digital/Casio/WD_Casio04.jpeg",5);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(2695,29,2695,1,2695,600,"CASIO D160 Vintage Digital Watch","CASIO D160 Vintage ( A168WEM-2DF ) Digital Watch - For Men & Women","Images/Watches/Digital/Casio/WD_Casio05.jpeg",5);
+
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(15000,30,31490,5,16000,2000,"APPLE Watch SE Black ","APPLE Watch SE GPS 44 mm Space Grey Aluminium Case with Black Sport Band  (Black Strap, Regular)","Images/Watches/Smart/Apple/WS_Apple01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(33333,30,49900,4,35000,3000,"APPLE Watch Series 6 Deep Navy ","APPLE Watch Series 6 GPS + Cellular 40 mm Blue Aluminium Case with Deep Navy Sport Band  (Blue Strap, Regular)","Images/Watches/Smart/Apple/WS_Apple01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(22000,30,33900,3,22200,3000,"APPLE Watch SE Gold Plum Sport Loop","APPLE Watch SE GPS + Cellular 40 mm Gold Aluminium Case with Plum Sport Loop  (Maroon Strap, Regular)","Images/Watches/Smart/Apple/WS_Apple01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(40000,30,77900,5,42000,5000,"APPLE Watch Series 6 Gold Milanese Loop","APPLE Watch Series 6 GPS + Cellular 44 mm Gold Stainless Steel Case with Gold Milanese Loop  (Gold Strap, Regular)","Images/Watches/Smart/Apple/WS_Apple01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(18000,30,20900,2,20900,2000,"APPLE Watch Series 3 Silver Fog Sport Band","APPLE Watch Series 3 GPS - 38 mm Silver Aluminium Case with Fog Sport Band  (White Strap, Regular)","Images/Watches/Smart/Apple/WS_Apple01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(20000,31,22995,3,21995,2000,"FOSSIL Gen 5 Smart Watch","FOSSIL Gen 5 Carlyle HR FTW4024 Smart Watch, Smoke Stainless Steel","Images/Watches/Smart/Fossil/WS_Fossil01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(21875,31,22995,3,21875,1000,"FOSSIL Gen 5 Garrett HR Smartwatch","FOSSIL Gen 5 Garrett HR Smartwatch  (Silver Strap, Regular)","Images/Watches/Smart/Fossil/WS_Fossil02.jpeg",11);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(16000,31,18495,3,16666,2000,"FOSSIL Gen 5E Smartwatch","FOSSIL Gen 5E Smartwatch  (Grey Strap, Free Size)","Images/Watches/Smart/Fossil/WS_Fossil03.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(16495,31,16495,1,16495,1000,"FOSSIL FB-01 Hybrid HR Smartwatch","FOSSIL FB-01 Hybrid HR Smartwatch  (Black Strap, Regular)","Images/Watches/Smart/Fossil/WS_Fossil04.jpeg",10);
+
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(8500,32,17995,5,9000,1000,"Armani Exchange","Men Silver-Toned & Navy Blue Drexler Smartwatch AXT2000","Images/Watches/Smart/Armani/WS_Armani01.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(8500,32,17995,5,8500,1000,"Armani Exchange","Men Black Silicone Touchscreen Swim-Proof Smartwatch AXT2007","Images/Watches/Smart/Armani/WS_Armani02.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(8700,32,17445,5,8700,1000,"Armani Exchange","Men Black Drexler Smartwatch AXT2005","Images/Watches/Smart/Armani/WS_Armani03.jpeg",10);
+
+INSERT INTO product(cardholdersPrice,catmasterID,mrpPrice,offerId,offerPrice,pointsToBeRedm,prodName,prodShortDesc,productImagePath,qtyOfInventory)
+    VALUES(8750,32,17445,5,9000,1000,"Armani Exchange","Men Red Drexler Smartwatch AXT2006","Images/Watches/Smart/Armani/WS_Armani04.jpeg",10)

@@ -1,0 +1,139 @@
+**************************************Electronics*********************************************
+
+insert into category values(1,"Electronics/Mobiles/sm_SAMSUNGGalaxyM12.jpg","Electronics","Mobile","Smart Phone","Samsung");
+
+insert into category values(2,"Electronics/Mobiles/sm_RedmiK20Pro.jpg","Electronics","Mobile","Smart Phone","Redmi");
+
+insert into category values(3,"Electronics/Mobiles/sm_APPLEiPhone11Pro.jpg","Electronics","Mobile","Smart Phone","iPhone");
+
+insert into category values(4,"Electronics/Mobiles/sm_OPPOF19Pro.jpg","Electronics","Mobile","Smart Phone","Oppo");
+
+insert into category values(5,"Electronics/Mobiles/sm_ViVOY51A.jpg","Electronics","Mobile","Smart Phone","Vivo");
+
+insert into category values(6,"Electronics/Mobiles/sm_SAMSUNGGuruFMPlus.jpg","Electronics","Mobile","Feature Phone","Samsung");
+
+insert into category values(7,"Electronics/Mobiles/sm_Nokia150DS2020.jpg","Electronics","Mobile","Feature Phone","Nokia");
+
+
+
+
+insert into category values(8,"Electronics/TV/st_SONY55 inchUltraHD.jpg","Electronics","TV","Smart TV","Sony");
+
+insert into category values(9,"Electronics/st_LGAllinOne.jpg","Electronics","TV","Smart TV","LG");
+
+insert into category values(10,"Electronics/TV/st_Panasonic123cm.jpg","Electronics","TV","Smart TV","Panasonic");
+
+insert into category values(11,"Electronics/TV/stdtv_SONYBraviaR202F.jpg","Electronics","TV","Standard TV","Sony");
+
+insert into category values(12,"Electronics/TV/stdtv_SAMSUNGSeries5.jpg","Electronics","TV","Standard TV","Samsung");
+
+insert into category values(13,"Electronics/TV/stdtv_Panasonic109cm.jpg","Electronics","TV","Standard TV","Panasonic");
+
+insert into category values(14,"Electronics/TV/stdtv_LG108cm.jpg","Electronics","TV","Standard TV","LG");
+
+insert into category values(15,"Electronics/TV/st_SAMSUNG138cm.jpg","Electronics","TV","Smart TV","Samsung");
+
+
+
+
+
+insert into category values(16,"Electronics/Camera/cd_Canon_EOS_1500D_DSLR_Camera.jpg","Electronics","Camera","DSLR","Canon");
+
+insert into category values(17,"Electronics/Camera/cd_NIKOND500.jpg","Electronics","Camera","DSLR","Nikon");
+
+insert into category values(18,"Electronics/Camera/cs_SJCAMSJ4000Air.jpg","Electronics","Camera","Sports","SJCAM");
+
+insert into category values(19,"Electronics/Camera/cs_GoProHero9Black.jpg","Electronics","Camera","Sports","GoPro");
+
+
+
+
+
+
+***********************************Watches****************************************************
+
+insert into category values(24,"Watches/Analog/Fasttrack/WA_Fasttrack01.jpeg","Watches","Analog",null,"Fastrack");
+
+insert into category values(25,"Watches/Analog/Sonata/WA_Sonata01.jpeg","Watches","Analog",null,"Sonata");
+
+insert into category values(26,"Watches/Analog/Fossil/WA_Fossil01.jpeg","Watches","Analog",null,"Fossil");
+
+insert into category values(27,"Watches/Analog/Casio/WA_Casio01.jpeg","Watches","Analog",null,"Casio");
+
+insert into category values(28,"Watches/Digital/Fastrack/WD_Fastrack04.jpeg","Watches","Digital",null,"Fastrack");
+
+insert into category values(29,"Watches/Digital/Casio/WD_Casio05.jpeg","Watches","Digital",null,"Casio");
+
+insert into category values(30,"Watches/Smart/Apple/WS_Apple01.jpeg","Watches","Smart Watches",null,"Apple");
+
+insert into category values(31,"Watches/Smart/Fossil/WS_Fossil01.jpeg","Watches","Smart Watches",null,"Fossil");
+
+insert into category values(32,"Watches/Smart/Armani/WS_Armani01.jpeg","Watches","Smart Watches",null,"Armani");
+
+
+***********************************Sports*****************************************************
+
+insert into category values(33,"Sports/CrCeatSixHitmanBat.jpeg","Sports",null,"Cricket","Bat");
+
+insert into category values(34,"Sports/CrForeverOnlineShopping1CricketLeatherBall.jpeg","Sports",null,"Cricket","Ball");
+
+insert into category values(35,"Sports/CRProactiveSPORTS6WoodenStumps.jpeg","Sports",null,"Cricket","Stumps");
+
+insert into category values(36,"Sports/CrSgClubMensWicketKeepingPad.jpeg","Sports",null,"Cricket","Pads");
+
+insert into category values(37,"Sports/CrMkSportsClubCricketHelmetCricketHelmet.jpeg","Sports",null,"Cricket","Helmet");
+
+insert into category values(38,"Sports/CrSunleySarthakJuniorComboCricketKit.jpeg","Sports",null,"Cricket","Kit");
+
+insert into category values(40,"Sports/FtOzoneFootballShoes.jpeg","Sports",null,"Football","Shoes");
+
+insert into category values(41,"Sports/FtNiviaAirStrikeGoalkeepingGloves.jpg","Sports",null,"Football","Gloves");
+
+insert into category values(42,"Sports/FtAzureNylonHandMadeNet.jpeg","Sports",null,"Football","Net");
+
+insert into category values(43,"Sports/BdYonexGr301YellowStrungBadmintonRacquet.jpeg","Sports",null,"Badminton","Racquet");
+
+insert into category values(44,"Sports/BdLiNingSwiftX100NylonShuttle.jpeg","Sports",null,"Badminton","Shuttlecocks");
+
+insert into category values(45,"Sports/BdRoxonPoloBadmintonSet.jpeg","Sports",null,"Badminton","Complete Sets");
+
+
+
+
+*********************************Automobile Accessories***************************************
+
+
+
+**********************************Home Furniture**********************************************
+
+insert into category values(46,"Images/HomeFurniture/Bed/hfbOkraSunflowerKingBoxBed.jpeg","Home Furniture","Bed","Double bed","king");
+
+insert into category values(47,"Images/HomeFurniture/Bed/hfbForzzaJasperQueenBed.jpeg","Home Furniture","Bed","Double bed","Queen");
+
+insert into category values(48,"Images/HomeFurniture/Bed/hfbSPACEWOODSingleDrawerBed.jpeg","Home Furniture","Bed",null,null,"Single Double");
+
+insert into category values(49,"Images/HomeFurniture/Sofa/hfsWESTIDO2SeaterSofa.jpeg","Home Furniture","Sofa",null,"Two Seater");
+
+insert into category values(50,"Images/HomeFurniture/Sofa/hfsELTOP4SeaterSofa.jpeg","Home Furniture","Sofa",null,"Four Seater");
+
+insert into category values(51,"Images/HomeFurniture/Sofa/hfsSofameRioSofaSectionalBed.jpeg","Home Furniture","Sofa",null,"Sofa-cum-Bed");
+
+insert into category values(52,"Images/HomeFurniture/DiningSet/hfdAnanyaFurnitureDiningSet.jpeg","Home Furniture","Dinning Set",null,"Two Seater");
+
+insert into category values(53,"Images/HomeFurniture/DiningSet/hfdRoyalOakDiningSet.jpeg","Home Furniture","Dinning Set",null,"Four Seater");
+
+insert into category values(54,"Images/DiningSet/hfdDeubaDiningSet.jpeg","Home Furniture","Dinning Set",null,"Eight Seater");
+
+
+************************************Books*****************************************************
+
+insert into category values(55,"Books/fb_HarryPotterandthePhilosophersStone.jpg","Books",null,null,"Fiction");
+
+insert into category values(56,"Books/nfb_RichDadPoorDad.jpg","Books",null,null,"Non-Fiction");
+
+
+************************************Appliances************************************************
+
+
+
+
