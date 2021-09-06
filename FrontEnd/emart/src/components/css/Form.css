@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+ 
 .close-btn {
   position: absolute;
   top: 2%;
