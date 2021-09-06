@@ -1,22 +1,19 @@
-**************************************Electronics*********************************************
-
 insert into category values(1,"Electronics/Mobiles/sm_SAMSUNGGalaxyM12.jpg","Electronics","Mobile","Smart Phone","Samsung");
 
-insert into category values(2,"Electronics/Mobiles/sm_RedmiK20Pro.jpg","Electronics","Mobile","Smart Phone","Redmi");
+insert into category values(2,"Electronics/Mobiles/sm_RedmiK20Pro.jpeg","Electronics","Mobile","Smart Phone","Redmi");
 
-insert into category values(3,"Electronics/Mobiles/sm_APPLEiPhone11Pro.jpg","Electronics","Mobile","Smart Phone","iPhone");
+insert into category values(3,"Electronics/Mobiles/sm_APPLEiPhone11Pro.jpeg","Electronics","Mobile","Smart Phone","iPhone");
 
-insert into category values(4,"Electronics/Mobiles/sm_OPPOF19Pro.jpg","Electronics","Mobile","Smart Phone","Oppo");
+insert into category values(4,"Electronics/Mobiles/sm_OPPOF19Pro.jpeg","Electronics","Mobile","Smart Phone","Oppo");
 
-insert into category values(5,"Electronics/Mobiles/sm_ViVOY51A.jpg","Electronics","Mobile","Smart Phone","Vivo");
+insert into category values(5,"Electronics/Mobiles/sm_ViVOY51A.jpeg","Electronics","Mobile","Smart Phone","Vivo");
 
-insert into category values(6,"Electronics/Mobiles/sm_SAMSUNGGuruFMPlus.jpg","Electronics","Mobile","Feature Phone","Samsung");
+insert into category values(6,"Electronics/Mobiles/sm_SAMSUNGGuruFMPlus.jpeg","Electronics","Mobile","Feature Phone","Samsung");
 
-insert into category values(7,"Electronics/Mobiles/sm_Nokia150DS2020.jpg","Electronics","Mobile","Feature Phone","Nokia");
-
-
+insert into category values(7,"Electronics/Mobiles/sm_Nokia150DS2020.jpeg","Electronics","Mobile","Feature Phone","Nokia");
 
 
+  
 insert into category values(8,"Electronics/TV/st_SONY55 inchUltraHD.jpg","Electronics","TV","Smart TV","Sony");
 
 insert into category values(9,"Electronics/st_LGAllinOne.jpg","Electronics","TV","Smart TV","LG");
@@ -45,13 +42,6 @@ insert into category values(18,"Electronics/Camera/cs_SJCAMSJ4000Air.jpg","Elect
 
 insert into category values(19,"Electronics/Camera/cs_GoProHero9Black.jpg","Electronics","Camera","Sports","GoPro");
 
-
-
-
-
-
-***********************************Watches****************************************************
-
 insert into category values(24,"Watches/Analog/Fasttrack/WA_Fasttrack01.jpeg","Watches","Analog",null,"Fastrack");
 
 insert into category values(25,"Watches/Analog/Sonata/WA_Sonata01.jpeg","Watches","Analog",null,"Sonata");
@@ -71,7 +61,7 @@ insert into category values(31,"Watches/Smart/Fossil/WS_Fossil01.jpeg","Watches"
 insert into category values(32,"Watches/Smart/Armani/WS_Armani01.jpeg","Watches","Smart Watches",null,"Armani");
 
 
-***********************************Sports*****************************************************
+
 
 insert into category values(33,"Sports/CrCeatSixHitmanBat.jpeg","Sports",null,"Cricket","Bat");
 
@@ -97,20 +87,11 @@ insert into category values(44,"Sports/BdLiNingSwiftX100NylonShuttle.jpeg","Spor
 
 insert into category values(45,"Sports/BdRoxonPoloBadmintonSet.jpeg","Sports",null,"Badminton","Complete Sets");
 
-
-
-
-*********************************Automobile Accessories***************************************
-
-
-
-**********************************Home Furniture**********************************************
-
 insert into category values(46,"Images/HomeFurniture/Bed/hfbOkraSunflowerKingBoxBed.jpeg","Home Furniture","Bed","Double bed","king");
 
 insert into category values(47,"Images/HomeFurniture/Bed/hfbForzzaJasperQueenBed.jpeg","Home Furniture","Bed","Double bed","Queen");
 
-insert into category values(48,"Images/HomeFurniture/Bed/hfbSPACEWOODSingleDrawerBed.jpeg","Home Furniture","Bed",null,null,"Single Double");
+insert into category values(48,"Images/HomeFurniture/Bed/hfbSPACEWOODSingleDrawerBed.jpeg","Home Furniture","Bed",null,"Single Double");
 
 insert into category values(49,"Images/HomeFurniture/Sofa/hfsWESTIDO2SeaterSofa.jpeg","Home Furniture","Sofa",null,"Two Seater");
 
@@ -125,15 +106,20 @@ insert into category values(53,"Images/HomeFurniture/DiningSet/hfdRoyalOakDining
 insert into category values(54,"Images/DiningSet/hfdDeubaDiningSet.jpeg","Home Furniture","Dinning Set",null,"Eight Seater");
 
 
-************************************Books*****************************************************
+insert into category values(57,"Fashion/Men/ZARARound-neck T-shirt Regular Fit.jpg","Fashion","Men",null,"Zara");
 
-insert into category values(55,"Books/fb_HarryPotterandthePhilosophersStone.jpg","Books",null,null,"Fiction");
+insert into category values(58,"Fashion/Men/lifestyleTshirt.jpg","Fashion","Men",null,"LifeStyle");
 
-insert into category values(56,"Books/nfb_RichDadPoorDad.jpg","Books",null,null,"Non-Fiction");
+insert into category values(59,"Fashion/Men/H_MTshirt.jpg","Fashion","Men",null,"H&M");
 
+insert into category values(60,"Fashion/Women/ZaraDrapedTop.jpg","Fashion","Women",null,"Zara");
 
-************************************Appliances************************************************
+insert into category values(61,"Fashion/Women/LifeStylePrintedKurta.jpg","Fashion","Women",null,"LifeStyle");
 
+insert into category values(62,"Fashion/Women/H&MWideShirt.jpg","Fashion","Women",null,"H&M");
 
+insert into category values(63,"Fashion/Kids/ZaraCrossOverRibbing.jpg","Fashion","Kids",null,"Zara");
 
+insert into category values(64,"Fashion/Kids/LifeStyleANGEL & ROCKET Girls Floral Print Shift Dress with Bell Sleeves.jpg","Fashion","Kids",null,"LifeStyle");
 
+insert into category values(65,"Fashion/Kids/H&MCotton T-shirt.jpg","Fashion","Kids",null,"H&M");
