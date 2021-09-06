@@ -24,7 +24,6 @@ const useForm = (callback, validate) => {
   const handleSubmit = e => {
     e.preventDefault();
     
-
     setErrors(validate(values));
     setIsSubmitting(true);
   };
@@ -55,7 +54,7 @@ const useForm = (callback, validate) => {
         callback();
       }
     },
-    [errors]
+    [callback, errors, isSubmitting, values.address, values.email, values.name, values.number, values.password2]
   );
 
   return { handleChange, handleSubmit, values, errors };

@@ -11,12 +11,14 @@ export class Header extends Component {
     static contextType = DataContext;
 
     render() {
+        // eslint-disable-next-line no-unused-vars
         const { cart,cartLen } = this.context;
         
         var currentCustID;
         var isLoggedIn = JSON.parse(localStorage.getItem('isLoggedIn'));
         if(isLoggedIn)
         {
+            // eslint-disable-next-line no-unused-vars
             currentCustID = JSON.parse(localStorage.getItem('currentCustID'));
         }
              
