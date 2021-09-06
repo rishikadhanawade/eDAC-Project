@@ -2,7 +2,7 @@
 
 insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(299,57,399,2,200,999,'Round-neck T-shirt Regular Fit','Round-neck T-shirt Regular Fit (Size M/L, Material Cotton 100%, Color Dark green)','Fashion/Men/ZARARound-neck T-shirt Regular Fit.jpg',334);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1399,57,1499,2,1300,999,'Regular Jeans','Regular Jeans (Size M/L, Cotton Denim, Color Black Solid colour)','Fashion/Men/ZARARound-neck T-shirt Regular Fit.jpg',334);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1399,57,1499,2,1300,999,'Regular Jeans','Regular Jeans (Size M/L, Cotton Denim, Color Black Solid colour)','Fashion/Men/ZARARegular Jeans(1).jpg',334);
 
 insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1600,58,1699,2,1500,999,'Men Printed Regular Fit Polo T-shirt','Men Printed Regular Fit Polo T-shirt (Size M/L, Material Cotton, Color Green Light Green Pattern)','Fashion/Men/lifestyleTshirt.jpg',334);
 
