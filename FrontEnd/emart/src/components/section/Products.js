@@ -65,19 +65,21 @@ export class Products extends Component {
                             //     </div>
 
                             // </div>
-                            <Card>
+
+                            <Card style={{ width: '18rem' }}>
                                 {/* <Link to={`/${prod.prodID}`}> */}
-                                    <Card.Img variant="top" src={prod.productImagePath} />
+                                <Card.Img variant="top" src={prod.productImagePath} />
                                 {/* </Link> */}
                                 <Card.Body className="text-center">
                                     {/* <Card.Title> <Link to={`/${prod.prodID}`}>{prod.prodName}</Link></Card.Title> */}
                                     <Card.Title> {prod.prodName}</Card.Title>
-                                    <Card.Text className='text-muted'>${prod.mrpPrice}</Card.Text>
-                                        <Card.Text style={{color:"red"}}>
-                                        <input type="checkbox" value="" id=""  /> eMcard : ${prod.cardholdersPrice} ePts : {prod.pointsToBeRedm}
-                                        </Card.Text>
-                                        <Button variant="info" onClick={() => addCart(prod.prodID)}>Add to cart</Button>
-                                    
+                                    <Card.Text className='text-muted'> ₹{prod.mrpPrice}</Card.Text>
+                                    {/* <Card.Text>{prod.prodShortDesc}</Card.Text> */}
+                                    <Card.Text style={{ color: "red" }}>
+                                    <input type="checkbox" value="" id="" /> eMcard :  ₹{prod.cardholdersPrice} ePts :  ₹{prod.pointsToBeRedm}
+                                    </Card.Text>
+                                    <Button variant="info" onClick={() => addCart(prod.prodID)}>Add to cart</Button>
+
                                 </Card.Body>
                             </Card>
                         ))

@@ -7,12 +7,12 @@ import Footer from './components/Footer'
 
 class App extends React.Component{
   render(){
-    return( 
+    return(
       <DataProvider>
         <div className="app">
           <Router>
-            <Header />
-            <Section />
+            <Header/>
+            <Section/>
             <Footer/>
             {/* <Trial/> */}
           </Router>
