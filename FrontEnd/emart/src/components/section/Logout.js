@@ -21,6 +21,7 @@ export class Logout extends Component
     onClose=()=>{
         
         this.setState({show: false});
+        localStorage.clear();
         window.location.href='/';  
     }
     render()
