@@ -11,7 +11,7 @@ const Form = () => {
   }
   return (
     <>
-      <div className='form-container'>
+      <div className='form-container' style={{backgroundColor: 'rgb(79 198 230)'}}>
         <span className='close-btn'></span>
         {/* <div className='form-content-left'>
           <img className='form-img' src='Images/em.jpg' alt='spaceship' />
