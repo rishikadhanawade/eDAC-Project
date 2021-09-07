@@ -49,9 +49,10 @@ export class Header extends Component {
                             {isLoggedIn === true ? <Nav.Link href="/Profile">Profile</Nav.Link> : <Nav.Link href="/login">Login</Nav.Link>}
                         </Nav>
                         <Nav className="colr">
-                            {isLoggedIn === true ? <span>{cart.length}</span> : " "}
+                            
                           
                             {isLoggedIn === true ? <Link to="/cart"><img src={CartIcon} alt="" width="20" /></Link> : " "}
+                            {isLoggedIn === true ? <span>{cart.length}</span> : " "}
                           
                         </Nav>
                     </Navbar.Collapse>

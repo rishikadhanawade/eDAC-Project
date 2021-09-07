@@ -76,7 +76,7 @@ export class Products extends Component {
                                     <Card.Text className='text-muted'> ₹{prod.mrpPrice}</Card.Text>
                                     {/* <Card.Text>{prod.prodShortDesc}</Card.Text> */}
                                     <Card.Text style={{ color: "red" }}>
-                                    <input type="checkbox" value="" id="" /> eMcard :  ₹{prod.cardholdersPrice} ePts :  ₹{prod.pointsToBeRedm}
+                                    {/* <input type="checkbox" value="" id="" /> eMcard :  ₹{prod.cardholdersPrice} ePts :  ₹{prod.pointsToBeRedm} */}
                                     </Card.Text>
                                     <Button variant="info" onClick={() => addCart(prod.prodID)}>Add to cart</Button>
 
