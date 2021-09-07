@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { DataContext } from '../Context'
 import '../css/Products.css'
+import Figure from 'react-bootstrap/Figure'
 import { Container, Row, Form, Col, Button, Card } from 'react-bootstrap';
 
 
@@ -51,37 +52,52 @@ export class Products extends Component {
                 <Container><Row className="justify-content-md-center">
                     {
                         this.state.cate.map(prod => (
-                            // <div className="card" key={prod.prodID}>
-                            //     <Link to={`/${prod.prodID}`}>
-                            //         <img src={prod.productImagePath} alt="" width="60" height="60" />
-                            //     </Link>
-                            //     <div className="content">
-                            //         <h4>
-                            //             <Link to={`/${prod.prodID}`}>{prod.prodName}</Link>
-                            //         </h4>
-                            //         <span>${prod.mrpPrice}</span>
-                            //         <p>{prod.prodShortDesc}</p>
-                            //         <button onClick={() => addCart(prod.prodID)}>Add to cart</button>
-                            //     </div>
+                      
+                            <Container className="details cart" key={prod.prodID} >
+                                <Row >
+                                    <Col md={4}>
+                                        <Figure >
+                                            <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
+                                                src={prod.productImagePath} alt="" />
+                                        </Figure>
+                                    </Col>
+                                    <Col md={7}>
 
-                            // </div>
+                                        <div>
+                                            <h2>{prod.prodName}</h2>
+                                        </div>
 
-                            <Card style={{ width: '18rem' }}>
-                                {/* <Link to={`/${prod.prodID}`}> */}
-                                <Card.Img variant="top" src={prod.productImagePath} />
-                                {/* </Link> */}
-                                <Card.Body className="text-center">
-                                    {/* <Card.Title> <Link to={`/${prod.prodID}`}>{prod.prodName}</Link></Card.Title> */}
-                                    <Card.Title> {prod.prodName}</Card.Title>
-                                    <Card.Text className='text-muted'> ₹{prod.mrpPrice}</Card.Text>
-                                    {/* <Card.Text>{prod.prodShortDesc}</Card.Text> */}
-                                    <Card.Text style={{ color: "red" }}>
-                                    {/* <input type="checkbox" value="" id="" /> eMcard :  ₹{prod.cardholdersPrice} ePts :  ₹{prod.pointsToBeRedm} */}
-                                    </Card.Text>
+
+                                        <span STYLE="font-size:25px">Price:  ₹ {prod.mrpPrice}</span>
+
+                                        <br></br>
+
+
+                                        <p STYLE="font-size:18px">{prod.prodShortDesc}</p>
+
+
+                                    </Col>
                                     <Button variant="info" onClick={() => addCart(prod.prodID)}>Add to cart</Button>
+                                </Row>
 
-                                </Card.Body>
-                            </Card>
+                            </Container>
+
+                            // <Card style={{ width: '18rem' }}>
+                            //     {/* <Link to={`/${prod.prodID}`}> */}
+                            //     <Card.Img variant="top" src={prod.productImagePath} />
+                            //     {/* </Link> */}
+                            //     <Card.Body className="text-center">
+                            //         {/* <Card.Title> <Link to={`/${prod.prodID}`}>{prod.prodName}</Link></Card.Title> */}
+                            //         <Card.Title> {prod.prodName}</Card.Title>
+                            //         <Card.Text className='text-muted'> ₹{prod.mrpPrice}</Card.Text>
+                            //         {/* <Card.Text>{prod.prodShortDesc}</Card.Text> */}
+                            //         <Card.Text style={{ color: "red" }}>
+                            //         {/* <input type="checkbox" value="" id="" /> eMcard :  ₹{prod.cardholdersPrice} ePts :  ₹{prod.pointsToBeRedm} */}
+                            //         </Card.Text>
+                            //         <Button variant="info" onClick={() => addCart(prod.prodID)}>Add to cart</Button>
+
+                            //     </Card.Body>
+                            // </Card>
                         ))
                     }
                 </Row>
