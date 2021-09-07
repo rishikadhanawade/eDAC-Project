@@ -1,44 +1,41 @@
----------------------------------MEN----------------------------------------------------
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(299,57,399,2,200,999,'Round-neck T-shirt Regular Fit','Round-neck T-shirt Regular Fit (Size M/L, Material Cotton 100%, Color Dark green)','Fashion/Men/ZARARound-neck T-shirt Regular Fit.jpg',334);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(299,57,399,2,200,999,'Round-neck T-shirt Regular Fit','Round-neck T-shirt Regular Fit (Size M/L, Material Cotton 100%, Color Dark green)','Images/Fashion/Men/ZARARound-neck T-shirt Regular Fit.jpg',334);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1399,57,1499,2,1300,999,'Regular Jeans','Regular Jeans (Size M/L, Cotton Denim, Color Black Solid colour)','Fashion/Men/ZARARegular Jeans(1).jpg',334);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1399,57,1499,2,1300,999,'Regular Jeans','Regular Jeans (Size M/L, Cotton Denim, Color Black Solid colour)','Images/Fashion/Men/ZARARegular Jeans(1).jpg',334);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1600,58,1699,2,1500,999,'Men Printed Regular Fit Polo T-shirt','Men Printed Regular Fit Polo T-shirt (Size M/L, Material Cotton, Color Green Light Green Pattern)','Fashion/Men/lifestyleTshirt.jpg',334);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1600,58,1699,2,1500,999,'Men Printed Regular Fit Polo T-shirt','Men Printed Regular Fit Polo T-shirt (Size M/L, Material Cotton, Color Green Light Green Pattern)','Images/Fashion/Men/lifestyleTshirt.jpg',334);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1400,58,1499,2,1300,999,'Mesh shorts','Mesh shorts (Size M/L, Material Mesh Polyester 100%, Color Khaki green/Black/Brown)','Fashion/Men/lifestyleShorts.jpg',465);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1400,58,1499,2,1300,999,'Mesh shorts','Mesh shorts (Size M/L, Material Mesh Polyester 100%, Color Khaki green/Black/Brown)','Images/Fashion/Men/lifestyleShorts.jpg',465);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(699,59,799,2,600,999,'Relaxed fit Tshirt','Relaxed fit Tshirt (Size M/L, Material Cotton, Color Orange)','Fashion/Men/H_MTshirt.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(699,59,799,2,600,999,'Relaxed fit Tshirt','Relaxed fit Tshirt (Size M/L, Material Cotton, Color Orange)','Images/Fashion/Men/H_MTshirt.jpg',23);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1800,59,1999,2,1500,999,'Relaxed Tapered Pull-On Jeans ','Relaxed Tapered Pull-On Jeans (Size L/L, Material Cotton Denim, Color Dark Denim Blue)','Fashion/Men/H_MShorts.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1800,59,1999,2,1500,999,'Relaxed Tapered Pull-On Jeans ','Relaxed Tapered Pull-On Jeans (Size L/L, Material Cotton Denim, Color Dark Denim Blue)','Images/Fashion/Men/H_MShorts.jpg',23);
 
------------------------------------WOMEN------------------------------------------------
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(2400,60,2500,6,2350,99,'Printed Draped Top','Printed Draped Top (Size S/M/L, Material 100% cotton, Color Burnt orange)','Fashion/Women/ZaraDrapedTop.jpg',334);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(2400,60,2500,6,2350,99,'Printed Draped Top','Printed Draped Top (Size S/M/L, Material 100% cotton, Color Burnt orange)','Images/Fashion/Women/ZaraDrapedTop.jpg',334);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(700,60,800,6,650,999,'Polkadot Trousers','Polkadot Trousers (Size S/M/L, Material Linen, Color Black Printed)','Fashion/Women/ZarapolkaDotTrouser.jpg',465);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(700,60,800,6,650,999,'Polkadot Trousers','Polkadot Trousers (Size S/M/L, Material Linen, Color Black Printed)','Images/Fashion/Women/ZarapolkaDotTrouser.jpg',465);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(809,61,909,6,700,999,'Solid Salwar Pants','Solid Salwar Pants (Size S/M/L, Material Fabric, Color Grey)','Fashion/Women/LifeStyleSolidSalwar.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(809,61,909,6,700,999,'Solid Salwar Pants','Solid Salwar Pants (Size S/M/L, Material Fabric, Color Grey)','Images/Fashion/Women/LifeStyleSolidSalwar.jpg',23);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(399,61,499,6,290,999,'Printed Straight Kurta ','Printed Straight Kurta (Size S/M/L, Material Cotton, Color Blue)','Fashion/Women/LifeStylePrintedKurta.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(399,61,499,6,290,999,'Printed Straight Kurta ','Printed Straight Kurta (Size S/M/L, Material Cotton, Color Blue)','Images/Fashion/Women/LifeStylePrintedKurta.jpg',23);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1199,62,1299,6,1000,999,'Wide cotton shirt','Wide cotton shirt (Size S/M/L, Material 100% cotton, Color Black and White Checked)','Fashion/Women/H&MWideShirt.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(1199,62,1299,6,1000,999,'Wide cotton shirt','Wide cotton shirt (Size S/M/L, Material 100% cotton, Color Black and White Checked)','Images/Fashion/Women/H&MWideShirt.jpg',23);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(2199,62,2299,6,2000,999,'Slim Mom High Ankle Jeans ','Slim Mom High Ankle Jeans (Size 36, Material Cotton 100%, Color Blue)','Fashion/Women/H&M5PocketJeans.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(2199,62,2299,6,2000,999,'Slim Mom High Ankle Jeans ','Slim Mom High Ankle Jeans (Size 36, Material Cotton 100%, Color Blue)','Images/Fashion/Women/H&M5PocketJeans.jpg',23);
 
----------------------------------KIDS------------------------------------------------------
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(980,63,990,6,975,99,'Crossover Ribbing(Girls)','Crossover Ribbing(Girls) (Size S/M/L, Material Polyster, Color Black)','Fashion/Kids/ZaraCrossOverRibbing.jpg',334);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(980,63,990,6,975,99,'Crossover Ribbing(Girls)','Crossover Ribbing(Girls) (Size S/M/L, Material Polyster, Color Black)','Images/Fashion/Kids/ZaraCrossOverRibbing.jpg',334);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(900,63,1000,2,800,999,'Explorer T Shirt(Boys)','Explorer T Shirt(Boys) (Size S/M/L, Material 100% cotton, Color Black)','Fashion/Kids/ZARAFEEL EXPLORER T-SHIRT.jpg',465);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(900,63,1000,2,800,999,'Explorer T Shirt(Boys)','Explorer T Shirt(Boys) (Size S/M/L, Material 100% cotton, Color Black)','Images/Fashion/Kids/ZARAFEEL EXPLORER T-SHIRT.jpg',465);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(809,64,1149,2,700,999,'Girls Floral Print Shift Dress','Girls Floral Print Shift Dress (Size S/M/L, Material Polyster, Color Blue)','Fashion/Kids/LifeStyleANGEL & ROCKET Girls Floral Print Shift Dress with Bell Sleeves.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(809,64,1149,2,700,999,'Girls Floral Print Shift Dress','Girls Floral Print Shift Dress (Size S/M/L, Material Polyster, Color Blue)','Images/Fashion/Kids/LifeStyleANGEL & ROCKET Girls Floral Print Shift Dress with Bell Sleeves.jpg',23);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(659,64,759,2,590,999,'Solid Casual Trousers ','Solid Casual Trousers (Size S/M/L, Material Cotton Blend, Color Dark Blue)','Fashion/Kids/LifeStyleSolid Casual Trousers.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(659,64,759,2,590,999,'Solid Casual Trousers ','Solid Casual Trousers (Size S/M/L, Material Cotton Blend, Color Dark Blue)','Images/Fashion/Kids/LifeStyleSolid Casual Trousers.jpg',23);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(799,65,899,2,699,999,'Tulle-skirt jersey dress','Tulle-skirt jersey dress (Size S/M/L, Material Cotton, Color White Pink)','Fashion/Kids/H&MTulle-skirt jersey dress.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(799,65,899,2,699,999,'Tulle-skirt jersey dress','Tulle-skirt jersey dress (Size S/M/L, Material Cotton, Color White Pink)','Images/Fashion/Kids/H&MTulle-skirt jersey dress.jpg',23);
 
-insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(230,65,330,2,200,999,'Cotton T-shirt ','Cotton T-shirt (Size S/M/L, Material Cotton 100%, Color Green)','Fashion/Kids/H&MCotton T-shirt.jpg',23);
+insert into product (cardholdersPrice,catmasterID,mrpPrice,offerId,OfferPrice,pointsToBeRedm,prodName,ProdShortDesc,productImagePath,qtyOfInventory) values(230,65,330,2,200,999,'Cotton T-shirt ','Cotton T-shirt (Size S/M/L, Material Cotton 100%, Color Green)','Images/Fashion/Kids/H&MCotton T-shirt.jpg',23);
 
 
 

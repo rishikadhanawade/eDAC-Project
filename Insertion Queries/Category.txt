@@ -106,20 +106,20 @@ insert into category values(53,"Images/HomeFurniture/DiningSet/hfdRoyalOakDining
 insert into category values(54,"Images/DiningSet/hfdDeubaDiningSet.jpeg","Home Furniture","Dinning Set",null,"Eight Seater");
 
 
-insert into category values(57,"Fashion/Men/ZARARound-neck T-shirt Regular Fit.jpg","Fashion","Men",null,"Zara");
+insert into category values(57,"Images/Fashion/Men/ZARARound-neck T-shirt Regular Fit.jpg","Fashion","Men",null,"Zara");
 
-insert into category values(58,"Fashion/Men/lifestyleTshirt.jpg","Fashion","Men",null,"LifeStyle");
+insert into category values(58,"Images/Fashion/Men/lifestyleTshirt.jpg","Fashion","Men",null,"LifeStyle");
 
-insert into category values(59,"Fashion/Men/H_MTshirt.jpg","Fashion","Men",null,"H&M");
+insert into category values(59,"Images/Fashion/Men/H_MTshirt.jpg","Fashion","Men",null,"H&M");
 
-insert into category values(60,"Fashion/Women/ZaraDrapedTop.jpg","Fashion","Women",null,"Zara");
+insert into category values(60,"Images/Fashion/Women/ZaraDrapedTop.jpg","Fashion","Women",null,"Zara");
 
-insert into category values(61,"Fashion/Women/LifeStylePrintedKurta.jpg","Fashion","Women",null,"LifeStyle");
+insert into category values(61,"Images/Fashion/Women/LifeStylePrintedKurta.jpg","Fashion","Women",null,"LifeStyle");
 
-insert into category values(62,"Fashion/Women/H&MWideShirt.jpg","Fashion","Women",null,"H&M");
+insert into category values(62,"Images/Fashion/Women/H&MWideShirt.jpg","Fashion","Women",null,"H&M");
 
-insert into category values(63,"Fashion/Kids/ZaraCrossOverRibbing.jpg","Fashion","Kids",null,"Zara");
+insert into category values(63,"Images/Fashion/Kids/ZaraCrossOverRibbing.jpg","Fashion","Kids",null,"Zara");
 
-insert into category values(64,"Fashion/Kids/LifeStyleANGEL & ROCKET Girls Floral Print Shift Dress with Bell Sleeves.jpg","Fashion","Kids",null,"LifeStyle");
+insert into category values(64,"Images/Fashion/Kids/LifeStyleANGEL & ROCKET Girls Floral Print Shift Dress with Bell Sleeves.jpg","Fashion","Kids",null,"LifeStyle");
 
-insert into category values(65,"Fashion/Kids/H&MCotton T-shirt.jpg","Fashion","Kids",null,"H&M");
+insert into category values(65,"Images/Fashion/Kids/H&MCotton T-shirt.jpg","Fashion","Kids",null,"H&M");
