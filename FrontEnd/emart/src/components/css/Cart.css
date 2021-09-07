@@ -3,7 +3,7 @@ section .cart{
     border: 1px solid #ccc;
 }
 .amount span{
-    color: crimson;
+    color: rgb(228, 17, 17);
     padding: 0 20px;
 }
 .amount .count{
@@ -53,5 +53,5 @@ section .cart{
     object-fit: cover;
 }
 .colr{
-    color: rgb(211, 0, 0);
+    color: rgb(238, 230, 230);
 }
