@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import CartIcon from './svg/shopping-cart-solid.svg'
+import CartIcon from './svg/120-1205575_0-shopping-cart-icon-transparent-background_1.svg'
 import { Link } from 'react-router-dom'
 import './css/Header.css'
 import { DataContext } from './Context'
