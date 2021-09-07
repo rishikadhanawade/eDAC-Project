@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-
-import CartIcon from './svg/120-1205575_0-shopping-cart-icon-transparent-background_1.svg'
+import Home from './svg/emartHome.svg'
+import CartIcon from './svg/cartIcon.svg'
 import { Link } from 'react-router-dom'
 import './css/Header.css'
 import { DataContext } from './Context'
@@ -31,7 +31,7 @@ export class Header extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto" >
-                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/"><img width="70" src={Home} alt="" /></Nav.Link>
 
                             <Nav.Link href="/Electronics">Electronics</Nav.Link>
                             <Nav.Link href="/Home Furniture">Home Furniture</Nav.Link>
