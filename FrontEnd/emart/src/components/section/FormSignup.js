@@ -9,11 +9,10 @@ const FormSignup = ({ submitForm }) => {
     validate
   );
   return (
-    <div className='form-content-right'>
+    <div className='form-content-center'>
       <form onSubmit={handleSubmit} className='form' noValidate>
         <h1>
-          Get started with us today! Create your account by filling out the
-          information below.
+          SignUp
         </h1>
         <div className='form-inputs'>
           <label className='form-label'>Name</label>
