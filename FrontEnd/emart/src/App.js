@@ -6,7 +6,7 @@ import {DataProvider} from './components/Context'
 import Footer from './components/Footer'
 
 class App extends React.Component{
-  render(){
+  render(){ 
     return(
       <DataProvider>
         <div className="app">
