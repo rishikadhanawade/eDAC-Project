@@ -1,0 +1,43 @@
+insert into category values(1,"Images/Electronics/Mobiles/sm_SAMSUNGGalaxyM12.jpg","Electronics","Mobile","Smart Phone","Samsung");
+
+insert into category values(2,"Images/Electronics/Mobiles/sm_RedmiK20Pro.jpeg","Electronics","Mobile","Smart Phone","Redmi");
+
+insert into category values(3,"Images/Electronics/Mobiles/sm_APPLEiPhone11Pro.jpeg","Electronics","Mobile","Smart Phone","iPhone");
+
+insert into category values(4,"Images/Electronics/Mobiles/sm_OPPOF19Pro.jpeg","Electronics","Mobile","Smart Phone","Oppo");
+
+insert into category values(5,"Images/Electronics/Mobiles/sm_ViVOY51A.jpeg","Electronics","Mobile","Smart Phone","Vivo");
+
+insert into category values(6,"Images/Electronics/Mobiles/sm_SAMSUNGGuruFMPlus.jpeg","Electronics","Mobile","Feature Phone","Samsung");
+
+insert into category values(7,"Images/Electronics/Mobiles/sm_Nokia150DS2020.jpeg","Electronics","Mobile","Feature Phone","Nokia");
+
+
+  
+insert into category values(8,"Images/Electronics/TV/st_SONY55 inchUltraHD.jpg","Electronics","TV","Smart TV","Sony");
+
+insert into category values(9,"Images/Electronics/st_LGAllinOne.jpg","Electronics","TV","Smart TV","LG");
+
+insert into category values(10,"Images/Electronics/TV/st_Panasonic123cm.jpg","Electronics","TV","Smart TV","Panasonic");
+
+insert into category values(11,"Images/Electronics/TV/stdtv_SONYBraviaR202F.jpg","Electronics","TV","Standard TV","Sony");
+
+insert into category values(12,"Images/Electronics/TV/stdtv_SAMSUNGSeries5.jpg","Electronics","TV","Standard TV","Samsung");
+
+insert into category values(13,"Images/Electronics/TV/stdtv_Panasonic109cm.jpg","Electronics","TV","Standard TV","Panasonic");
+
+insert into category values(14,"Images/Electronics/TV/stdtv_LG108cm.jpg","Electronics","TV","Standard TV","LG");
+
+insert into category values(15,"Images/Electronics/TV/st_SAMSUNG138cm.jpg","Electronics","TV","Smart TV","Samsung");
+
+
+
+
+
+insert into category values(16,"Images/Electronics/Camera/cd_Canon_EOS_1500D_DSLR_Camera.jpg","Electronics","Camera","DSLR","Canon");
+
+insert into category values(17,"Images/Electronics/Camera/cd_NIKOND500.jpg","Electronics","Camera","DSLR","Nikon");
+
+insert into category values(18,"Images/Electronics/Camera/cs_SJCAMSJ4000Air.jpg","Electronics","Camera","Sports","SJCAM");
+
+insert into category values(19,"Images/Electronics/Camera/cs_GoProHero9Black.jpg","Electronics","Camera","Sports","GoPro");
