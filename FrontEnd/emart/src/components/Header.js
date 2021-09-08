@@ -31,7 +31,7 @@ export class Header extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto" >
-                            <Nav.Link href="/"><img width="70" src={Home} alt="" /></Nav.Link>
+                            <Nav.Link href="/"><img width="70" src={Home} alt="emart" /></Nav.Link>
 
                             <Nav.Link href="/Electronics">Electronics</Nav.Link>
                             <Nav.Link href="/Home Furniture">Home Furniture</Nav.Link>
