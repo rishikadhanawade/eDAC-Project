@@ -19,18 +19,21 @@ export class DataProvider extends Component {
     addCart = (id) =>{
         console.log(id);
         const {product, cart} = this.state;
+        //agar naya product hua to check is true
         const check = cart.every(item =>{
             return item.prodID !== id
         })
         if(check){
+            // returns array of elements matching the set test. (pura product ka literal object aayega)
             const data = product.filter(product =>{
-                return product.prodID === id
+                return product.prodID === id //check karra hai ki added product database mein hai ya nahi
             })
             // const x=cartLen+1;
             // localStorage.setItem('cartLen',x);
-            this.setState({cart: [...cart,...data]})
+            this.setState({cart: [...cart,...data]}) //ye product ka jo literal object data me hai usko cart me daal raha hai 
 
-        }else{
+        }
+        else{
             alert("The product has been added to cart.")
         }
     };

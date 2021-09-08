@@ -1,7 +1,7 @@
 import React from 'react'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
-function FormSignup() {
+function FormSignup({submitForm}) {
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -41,6 +41,7 @@ function FormSignup() {
           this.setState({ message: 'You have been Registered' });
         }
       });
+      submitForm();
     }
 })
 return (
