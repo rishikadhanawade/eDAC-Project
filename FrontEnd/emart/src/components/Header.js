@@ -27,7 +27,7 @@ export class Header extends Component {
         return (
             <div>
                {/* <Navbar className="navbar navbar-light" style={{backgroundColor: '#e3f2fd'}} expand="lg"> */}
-               <Navbar sticky="top" bg="dark" variant={"dark"} expand="lg">
+               <Navbar fixed="top" bg="dark" variant={"dark"} expand="lg">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto" >
