@@ -26,6 +26,7 @@ import Logout from './section/Logout'
 export default class Section extends Component {
     render() {
         return (
+            <div style={{marginTop:'50px'}}>
             <section>
                 <Route path="/" component={Home} exact />
                 {/* <Route path="" component={Products} exact /> */}
@@ -122,6 +123,7 @@ export default class Section extends Component {
                 <Route path="/H&M/:id" exact render={(props) => <Products {...props} key={props.match.params.id}/>}></Route>
                 
             </section>
+            </div>
         )
     }
 }
