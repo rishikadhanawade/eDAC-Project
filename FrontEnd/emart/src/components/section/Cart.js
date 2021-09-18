@@ -77,7 +77,9 @@ export class Cart extends Component {
                     {
                         cart.map(item => (
                             <Container className="details cart" key={item.productID} >
+                                 
                                 <Row >
+                                    
                                     <Col md={4}>
                                         <Figure >
                                             <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
@@ -89,21 +91,12 @@ export class Cart extends Component {
                                         <div>
                                             <h2>{item.prodName}</h2>
                                         </div>
-
-
-                                        <span STYLE="font-size:25px">Price:  ₹ {item.mrpPrice * item.qty}</span>
-
+                                        <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
                                         <br></br>
-
-
                                         <p STYLE="font-size:18px">{item.prodShortDesc}</p>
-
                                         <div className="amount align"><button className="count" onClick={() => reduction(item.prodID)}> - </button>
                                             <span>{item.qty}</span>
                                             <button className="count" onClick={() => increase(item.prodID)}> + </button></div>
-
-
-
                                     </Col>
                                     <Col md={1} className="text-center" >
                                         <br />

@@ -2,6 +2,8 @@ import React from 'react'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
 function FormSignup({submitForm}) {
+  const phoneRegExp = /[0-9]{10}/
+
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -14,7 +16,9 @@ function FormSignup({submitForm}) {
     validationSchema: yup.object({
       name: yup.string().required("Name required"),
       email: yup.string().email("Email address is invalid").required("Email required"),
-      number: yup.string().min(10,"Mobile number should be 10 digits").max(10,"Mobile number should be 10 digits").required("Number is required"),
+      number: yup.string().matches(phoneRegExp, 'Phone number is not valid').min(10).max(10),
+
+      // number: yup.string().min(10,"Mobile number should be 10 digits").max(10,"Mobile number should be 10 digits").required("Number is required"),
       address: yup.string().required("Address required"),
       password: yup.string().min(6,"Password needs to be 6 characters or more").required("Password is required"),
       password2: yup.string().oneOf([yup.ref('password'), null], 'Passwords do not match')

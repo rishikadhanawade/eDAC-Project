@@ -37,10 +37,7 @@ export class Header extends Component {
                             <Nav.Link href="/Home Furniture">Home Furniture</Nav.Link>
                             <Nav.Link href="/Fashion">Fashion</Nav.Link>
 
-                            <Nav.Link href="/Watches" disabled>Watches</Nav.Link>
-                            <Nav.Link href="/books" disabled>Books</Nav.Link>
-
-                            <Nav.Link href="/Sports">Sports</Nav.Link>
+                            
 
                         </Nav>
                         <Nav className="ml-auto">

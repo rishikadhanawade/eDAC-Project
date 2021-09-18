@@ -108,7 +108,7 @@ class Invoice extends React.Component {
                             <th scope="col">Product Name</th>
                             <th scope="col">Qty</th>
                             <th scope="col">ListPrice</th>
-                            {/* <th scope="col">eMcard Price</th> */}
+                            <th scope="col">eMcard Price</th>
                             <th scope="col">Amount</th>
                             <th scope="col">Remove?</th>
                         </tr>
@@ -116,13 +116,14 @@ class Invoice extends React.Component {
                     <tbody>
                         {
                             this.state.invoice.map(val => (
+
                                 <tr>
                                     <th scope="row">{val.invoice[0].invoiceOrderID}</th>
                                     <td>{val.invoice[0].custid}</td>
                                     <td>{val.prodName}</td>
                                     <td>{val.invoice[0].qty}</td>
                                     <td>{val.mrpPrice}</td>
-                                    {/* <td>{val.cardholdersPrice}</td> */}
+                                    <td>{val.cardholdersPrice}</td>
                                     <td>{val.invoice[0].totalBill}</td>
                                     <td><button onClick={() => onDel(val.invoice[0].invoiceOrderID,val.invoice[0].qty,val.invoice[0].totalBill)} style={{ color: "red", fontSize: "15px" }}> Yes </button></td>
                                 </tr>))

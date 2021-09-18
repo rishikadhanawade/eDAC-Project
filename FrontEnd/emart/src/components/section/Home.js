@@ -55,11 +55,13 @@ export class Home extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
+                    <a href="/LifeStyle/61">
                         <img
                             className="d-block w-100"
                             src="./Images/horizontal-banner-online-fashion-sale.jpg"
                             alt=""
                         />
+                        </a>
                         <Carousel.Caption style={{ color: 'black' }}>
                             <h3></h3>
 
@@ -79,6 +81,7 @@ export class Home extends Component {
                                     <div className="content">
                                         <h4 style={{ marginTop: '50px' }}>
                                             <Link to={`/${category.categoryName}`}>{category.categoryName}</Link>
+                                            
                                         </h4>
 
                                     </div>

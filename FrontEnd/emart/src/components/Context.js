@@ -19,6 +19,7 @@ export class DataProvider extends Component {
     addCart = (id) =>{
         console.log(id);
         const {product, cart} = this.state;
+        console.log(product);
         //agar naya product hua to check is true
         const check = cart.every(item =>{
             return item.prodID !== id
@@ -88,9 +89,7 @@ export class DataProvider extends Component {
         const{cart,count,Dely,Discount,total,Customer,cartLen} = this.state;
         localStorage.setItem('dataCart', JSON.stringify(this.state.cart));
         localStorage.setItem('dataTotal', JSON.stringify(this.state.total));
-        
         localStorage.setItem('custData', JSON.stringify(this.state.Customer));
-
         console.log(cart);
         
     };

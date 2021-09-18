@@ -27,28 +27,7 @@ export class Products extends Component {
 
         return (
             <div id="product">
-                <Form inline className="mt-3">
-                    <Container fluid>
-                        <Row className="justify-content-md-center">
-                            <Col md={3}>
-                                <div className="">
-                                    <label>
-                                        <h4></h4>
-                                    </label>
-                                </div>
-                            </Col>
-                            <Col xs="auto" className="">
-                                <Form.Label htmlFor="brand" srOnly className="">Brand</Form.Label>
-                                <Form.Control id="filter1" placeholder="Brand" />
-                                {/* <Form.Label htmlFor="price" srOnly className=""> Price </Form.Label>
-                                <Form.Control id="filter2" placeholder="Price" /> */}
-                                <Button type="submit" className="btn btn-dark"> Apply </Button>
-                            </Col>
-                            <Col md={3}>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Form>
+              
                 <Container><Row className="justify-content-md-center">
                     {
                         this.state.cate.map(prod => (
