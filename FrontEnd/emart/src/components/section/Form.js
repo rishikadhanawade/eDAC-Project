@@ -11,16 +11,12 @@ const Form = () => {
   }
   return (
     <>
-      <div className='form-container' style={{backgroundColor: 'rgb(79 198 230)'}}>
+      <div className='form-container' style={{backgroundColor: 'rgb(52 58 64)'}}>
         <span className='close-btn'></span>
         {/* <div className='form-content-left'>
           <img className='form-img' src='Images/em.jpg' alt='spaceship' />
         </div> */}
-        {!isSubmitted ? (
-          <FormSignup submitForm={submitForm} />
-        ) : (
-          <FormSuccess />
-        )}
+        {!isSubmitted ? (<FormSignup submitForm={submitForm} />) : (<FormSuccess />)}
       </div>
     </>
   );

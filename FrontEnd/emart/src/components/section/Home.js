@@ -38,7 +38,7 @@ export class Home extends Component {
                         />
                         </a>
                         <Carousel.Caption style={{ color: 'black' }}>
-                            <h3></h3>
+                            {/* <h3></h3> */}
 
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -51,19 +51,19 @@ export class Home extends Component {
                         />
                     
                         <Carousel.Caption style={{ color: 'black' }}>
-                            <h3></h3>
+                            {/* <h3></h3> */}
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                     <a href="/LifeStyle/61">
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 "
                             src="./Images/horizontal-banner-online-fashion-sale.jpg"
                             alt=""
                         />
                         </a>
                         <Carousel.Caption style={{ color: 'black' }}>
-                            <h3></h3>
+                            {/* <h3></h3> */}
 
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -91,13 +91,9 @@ export class Home extends Component {
                         }
                     </Row>
                 </Container>
-                
-
                 <div>
-
-                </div>
             </div>
-
+        </div>
         )
     }
 }
