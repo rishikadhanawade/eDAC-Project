@@ -12,17 +12,26 @@ export class Footer extends Component {
     render() {
         return (
             <header>
-                <div className="footer-container" style={{backgroundColor: '#343a40'}} >
-                    <footer className="py-3 my-4">
+                {/* <div className="footer-container" style={{backgroundColor: '#343a40'}} >
+                    <footer className>
                         <ul className="nav justify-content-center border-bottom pb-3 mb-">
                         <li className="nav-item" ><a href="/" className="nav-link px-2 text-muted">Home</a></li>
                         <li className="nav-item"><a href="/contact" className="nav-link px-2 text-muted">ContactUs</a></li>
                         <li className="nav-item"><a href="/About" className="nav-link px-2 text-muted">About</a></li>
+                        <li className="nav-item"><p className="nav-link px-2 text-muted">© 2021 Company, Inc</p></li>
                         </ul>
-                        <p className="text-center text-muted">© 2021 Company, Inc</p>
                     </footer>
-                    </div>
+                </div> */}
+                 <div className="container-fluid" style={{backgroundColor: '#343a40'}}>
+                <ul className="nav justify-content-center border-bottom pb-3 mb-">
+                        <li className=""><a href="/"  className="nav-link px-2 text-muted">Home</a></li>
+                        <li className=""><a href="/contact" className="nav-link px-2 text-muted">ContactUs</a></li>
+                        <li className=""><a href="/About" className="nav-link px-2 text-muted">About</a></li>
+                        <li className=""><p className="nav-link px-2 text-muted">© 2021 eMART.com</p></li>
+                </ul>
+                </div>
             </header>
+           
         )
     }
 } 

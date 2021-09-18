@@ -1,6 +1,7 @@
 import React from 'react'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
+import { Button } from 'react-bootstrap';
 function FormSignup({submitForm}) {
   const phoneRegExp = /[0-9]{10}/
 
@@ -16,7 +17,7 @@ function FormSignup({submitForm}) {
     validationSchema: yup.object({
       name: yup.string().required("Name required"),
       email: yup.string().email("Email address is invalid").required("Email required"),
-      number: yup.string().matches(phoneRegExp, 'Phone number is not valid').min(10).max(10),
+      number: yup.string().matches(phoneRegExp, 'Phone number is not valid').min(10).max(10).required("Phone required"),
 
       // number: yup.string().min(10,"Mobile number should be 10 digits").max(10,"Mobile number should be 10 digits").required("Number is required"),
       address: yup.string().required("Address required"),
@@ -49,10 +50,12 @@ function FormSignup({submitForm}) {
     }
 })
 return (
-  <div className='form-content-right'>
+  <div className='container mt-3'>
+    <div className="row">
+      <div className="col-md-12">
     <form onSubmit={formik.handleSubmit} className='form' noValidate>
       <h1>
-
+      SignUp
       </h1>
       <div className='form-inputs'>
         <label className='form-label'>Name</label>
@@ -126,13 +129,13 @@ return (
         />
         {formik.touched.password2 && formik.errors.password2 ?<p style={{color:'red'}}>{formik.errors.password2}</p>:null}
       </div>
-      <button className='form-input-btn' type='submit'>
-        Sign up
-      </button>
+      <Button variant="warning" type='submit'>SignUp</Button>
       <span className='form-input-login'>
         Already have an account? Login <a href="/login">here</a>
       </span>
     </form>
+  </div>
+  </div>
   </div>
 );
 

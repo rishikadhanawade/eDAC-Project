@@ -2,6 +2,7 @@ import React from 'react';
 import validatelogin from './validatelogin';
 import useForm2 from './useForm2';
 import '../css/Form.css';
+import { Button } from 'react-bootstrap';
 
 const FormLogin = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm2(
@@ -37,9 +38,7 @@ const FormLogin = ({ submitForm }) => {
           />
           {errors.password && <p>{errors.password}</p>}
         </div>
-        <button className='form-input-btn' type='submit'>
-          Login
-        </button>
+        <Button variant="success" type='submit'>Login</Button>
         <span className='form-input-login'>
           Don't have an account? Sign Up <a href='/Signup'>here</a>
         </span>
