@@ -10,15 +10,15 @@ const Form = () => {
     setIsSubmitted(true);
   }
   return (
-    <>
+  
       <div className='form-container' style={{backgroundColor: 'rgb(52 58 64)'}}>
-        <span className='close-btn'></span>
+        {/* <span className='close-btn'></span> */}
         {/* <div className='form-content-left'>
           <img className='form-img' src='Images/em.jpg' alt='spaceship' />
         </div> */}
         {!isSubmitted ? (<FormSignup submitForm={submitForm} />) : (<FormSuccess />)}
       </div>
-    </>
+
   );
 };
 

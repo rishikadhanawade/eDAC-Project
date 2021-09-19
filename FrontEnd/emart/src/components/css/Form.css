@@ -4,7 +4,7 @@
   box-shadow: 0 5px 20px 0 rgb(245, 9, 9), 0 7px 20px 0 rgba(5, 213, 241, 0.151);
   position: relative;
   border-radius: 10px;
-  height: 900px;
+  height: 800px;
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
 }
@@ -63,6 +63,7 @@
 .form {
   position: absolute;
   top: 50%;
+  bottom: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
@@ -89,6 +90,7 @@
 .form-inputs p {
   font-size: 0.8rem;
   /* margin-top: 0.5rem; */
+  margin-bottom: 0%;
   color: #f00e0e;
 }
 

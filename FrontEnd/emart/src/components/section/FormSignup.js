@@ -50,8 +50,8 @@ function FormSignup({submitForm}) {
     }
 })
 return (
-  <div className='container mt-3'>
-    <div className="row">
+  <div className='container'>
+    <div className="row" style={{position:'relative'}}>
       <div className="col-md-12">
     <form onSubmit={formik.handleSubmit} className='form' noValidate>
       <h1>
