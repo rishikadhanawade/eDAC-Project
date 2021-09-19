@@ -33,7 +33,7 @@ export class Home extends Component {
                     <a href="/Canon/16">
                         <img
                             className="d-block w-100"
-                            src="./Images/camerabanner3.jpg"
+                            src="./Images/electronicsBanner.jpg"
                             alt="First slide"
                         />
                         </a>
@@ -46,7 +46,7 @@ export class Home extends Component {
                     
                         <img
                             className="d-block w-100"
-                            src="./Images/banner-casio-watches.jpg"
+                            src="./Images/homefurniturebanner4.jpg"
                             alt="Second slide"
                         />
                     
