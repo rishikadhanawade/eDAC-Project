@@ -37,7 +37,7 @@ class Invoice extends React.Component {
           "description": "",
           "image": "/your_logo.png",
           "handler": function (response){
-                                            alert(response.razorpay_payment_id);
+                                            alert("Payment Successful");
                                         },
           "prefill": {
                         "name": k.cust_Name,
@@ -84,7 +84,8 @@ class Invoice extends React.Component {
   
 
     render(){
-        const { cart, total, Customer,onDel,totalpts} = this.context;
+        let invoiceOrderID=0;
+        const { cart, total, Customer,onDel,totalpts,removeProduct} = this.context;
         const k=JSON.parse(localStorage.getItem('currentCust'));
         console.log(k.custid);
         return (
@@ -109,23 +110,23 @@ class Invoice extends React.Component {
                             <th scope="col">Qty</th>
                             <th scope="col">ListPrice</th>
                             <th scope="col">eMcard Price</th>
-                            <th scope="col">Amount</th>
+                            {/* <th scope="col">Amount</th> */}
                             <th scope="col">Remove?</th>
                         </tr>
                     </thead>
                     <tbody>
                         {
-                            this.state.invoice.map(val => (
+                            cart.map(val => (
 
                                 <tr>
-                                    <th scope="row">{val.invoice[0].invoiceOrderID}</th>
-                                    <td>{val.invoice[0].custid}</td>
+                                    <th scope="row">{++invoiceOrderID}</th>
+                                    <td>{k.custid}</td>
                                     <td>{val.prodName}</td>
-                                    <td>{val.invoice[0].qty}</td>
+                                    <td>{val.qty}</td>
                                     <td>{val.mrpPrice}</td>
                                     <td>{val.cardholdersPrice}</td>
-                                    <td>{val.invoice[0].totalBill}</td>
-                                    <td><button onClick={() => onDel(val.invoice[0].invoiceOrderID,val.invoice[0].qty,val.invoice[0].totalBill)} style={{ color: "red", fontSize: "15px" }}> Yes </button></td>
+                                    {/* <td>{val.invoice[0].totalBill}</td> */}
+                                    <td><button onClick={() => removeProduct(val.prodID)} style={{ color: "red", fontSize: "15px" }}> Yes </button></td>
                                 </tr>))
                         }
                     </tbody>
