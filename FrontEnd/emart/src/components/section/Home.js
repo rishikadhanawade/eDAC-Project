@@ -72,7 +72,7 @@ export class Home extends Component {
                 </Carousel>
 
 
-                <Container >
+                <Container style={{ marginTop: '20px' }}>
                     <Row className="justify-content-md-center">
                         {
                             this.state.cate.map(category => (
@@ -82,7 +82,7 @@ export class Home extends Component {
                                     </Link>
                                     <div className="content">
                                         <h4 style={{ marginTop: '50px' }}>
-                                            <Link to={`/${category.categoryName}`}>{category.categoryName}</Link>
+                                            <Link text="black" to={`/${category.categoryName}`}>{category.categoryName}</Link>
                                             
                                         </h4>
 
