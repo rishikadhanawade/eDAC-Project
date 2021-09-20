@@ -38,6 +38,7 @@ class Invoice extends React.Component {
           "image": "/your_logo.png",
           "handler": function (response){
                                             alert("Payment Successful");
+                                            return true;
                                         },
           "prefill": {
                         "name": k.cust_Name,
@@ -55,8 +56,10 @@ class Invoice extends React.Component {
         console.log("Value of rpz: "+rzp);
         console.log("Value of rpz open:"+rzp.open());
 
-        
-        //window.location.href='/';  
+    // if(this.options.handler===true){
+    //     this.props.history.push("/");
+    // }
+        // window.location.href='/';  
 
       }
     
