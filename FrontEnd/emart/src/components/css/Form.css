@@ -1,3 +1,9 @@
+/* body{
+  display: flex;
+  flex-direction: column;
+  height: 100vw;
+} */
+
 .form-container {
   margin: 100px auto;
   width: 60%;
@@ -173,8 +179,18 @@
 }
 
 .footer-container{
-  font-size: 1rem;
-  /* margin: auto; */
-  /* margin-top: 10px; */
+  background-color: #343a40;
+  width: 100vw;
+  height: 4rem;
+  margin-top: auto;
+}
+
+.footer-ul{
   color: #fff;
+  /* font-size: 1rem; */
+  text-align: center;
+  line-height: 3rem;
+  margin: 0%;
+  padding: 0%;
+  
 }
