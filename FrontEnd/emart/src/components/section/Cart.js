@@ -80,13 +80,13 @@ export class Cart extends Component {
                                  
                                 <Row >
                                     
-                                    <Col md={4}>
+                                    <Col md-4>
                                         <Figure >
                                             <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
                                                 src={item.productImagePath} alt="" />
                                         </Figure>
                                     </Col>
-                                    <Col md={7}>
+                                    <Col md-7>
 
                                         <div>
                                             <h2>{item.prodName}</h2>
@@ -98,7 +98,7 @@ export class Cart extends Component {
                                             <span>{item.qty}</span>
                                             <button className="count" onClick={() => increase(item.prodID)}> + </button></div>
                                     </Col>
-                                    <Col md={1} className="text-center" >
+                                    <Col md-1 className="text-center" >
                                         <br />
                                         <Button variant="danger" onClick={() => removeProduct(item.prodID)}> Remove </Button>
                                     </Col>

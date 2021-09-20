@@ -27,39 +27,48 @@ export class Products extends Component {
 
         return (
             <div id="product">
-              
+
                 <Container><Row className="justify-content-md-center">
                     {
                         this.state.cate.map(prod => (
-                      
-                            <Container className="details cart" key={prod.prodID} >
-                                <Row >
-                                    <Col md={4}>
-                                        <Figure >
-                                            <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
-                                                src={prod.productImagePath} alt="" />
-                                        </Figure>
-                                    </Col>
-                                    <Col md={7}>
 
-                                        <div>
-                                            <h2>{prod.prodName}</h2>
-                                        </div>
+                            //<Container className="details cart" key={prod.prodID} >
+							<div className="card mb-3" style={{width: '550px', height:'auto'}} key={prod.prodID}>
+                                {/* <Row > */}
+								<div className="row g-0">
+                                    {/* //<Col md-5> */}
+									<div className="col-md-5">
+                                        {/* //<Figure >
+                                        //    <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
+                                        //        src={prod.productImagePath} alt="" />
+                                        //</Figure> */}
+										<img src={prod.productImagePath} className="img-fluid rounded-start" alt="..."/>
+                                    {/* </Col> */}
+									</div>
+                                    {/* <Col md-7> */}
+									<div className="col-md-7">
+                                    <div className="row g-0">
+                                        {/* //<div> */}
+										<div className="card-body">
+                                            {/* //<h2>{prod.prodName}</h2> */}
+											<h5 className="card-title">{prod.prodName}</h5>
+                                        {/* //</div>
+										//<p STYLE="font-size:18px">{prod.prodShortDesc}</p> */}
+                                        <p className="card-text">{prod.prodShortDesc}</p>
+                                        <span STYLE="font-size:15px">Price:  ₹ {prod.mrpPrice}</span>
+										</div>
+                                        <div className="row mx-3 g-0">
+                                        <Button style={{marginTop: '10px'}}variant="info" onClick={() => addCart(prod.prodID)}>Add to cart</Button>
+										</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+                                    //</Col>
+                                //</Row>
 
-
-                                        <span STYLE="font-size:25px">Price:  ₹ {prod.mrpPrice}</span>
-
-                                        <br></br>
-
-
-                                        <p STYLE="font-size:18px">{prod.prodShortDesc}</p>
-
-
-                                    </Col>
-                                    <Button variant="info" onClick={() => addCart(prod.prodID)}>Add to cart</Button>
-                                </Row>
-
-                            </Container>
+                            //</Container>
 
                             // <Card style={{ width: '18rem' }}>
                             //     {/* <Link to={`/${prod.prodID}`}> */}
