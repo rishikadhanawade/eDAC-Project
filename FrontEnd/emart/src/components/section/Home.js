@@ -30,7 +30,7 @@ export class Home extends Component {
             <div id="Home">
                 <Carousel style={{ width: '70%' }} >
                     <Carousel.Item interval={3000}>
-                    <a href="/Canon/16">
+                    <a href="/Samsung/1">
                         <img
                             className="d-block w-100"
                             src="./Images/electronicsBanner.jpg"
@@ -44,12 +44,14 @@ export class Home extends Component {
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
                     
+                    <a href="/Four%20Seater/50">
+                        
                         <img
                             className="d-block w-100"
                             src="./Images/homefurniturebanner4.jpg"
                             alt="Second slide"
                         />
-                    
+                    </a>
                         <Carousel.Caption style={{ color: 'black' }}>
                             {/* <h3></h3> */}
                         </Carousel.Caption>

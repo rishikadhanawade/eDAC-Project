@@ -77,12 +77,6 @@ class Invoice extends React.Component {
     home=(e)=>{
         this.props.history.push("/");
     }
-    
-
-    
-
-  
-
     render(){
         let invoiceOrderID=0;
         const { cart, total, Customer,onDel,totalpts,removeProduct} = this.context;
@@ -131,11 +125,11 @@ class Invoice extends React.Component {
                         }
                     </tbody>
                 </table><h4>Total Amount:  ₹ {total}</h4>
-                {/* <h6 >Your e-Point A/c: {k.eMCardNo}</h6>
+                <h6 >Your e-Point A/c: {k.eMCardNo}</h6>
                 <h6>OP Bal: {k.eMartPoints}</h6>
                 <h6>Total ePts Credited: {total*0.1}</h6>
                 <h6>Redeemed today: {this.state.a}</h6>
-                <h6>CL Balance: {(k.eMartPoints)+(total*0.1)-(this.state.a)}</h6> */}
+                <h6>CL Balance: {(k.eMartPoints)+(total*0.1)-(this.state.a)}</h6>
                 <div class="center-block">
                     {/* <input type="submit" value="Modify" class="invoice-button" /> <span>&nbsp;&nbsp;</span> */}
                     <Button variant="info"  onClick={this.home}>Cancel</Button> <span>&nbsp;&nbsp;&nbsp;</span>
