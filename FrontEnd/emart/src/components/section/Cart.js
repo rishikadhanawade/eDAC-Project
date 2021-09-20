@@ -76,11 +76,10 @@ export class Cart extends Component {
                 <>
                     {
                         cart.map(item => (
-                            <Container className="details cart" key={item.productID} >
-                                 
+                            // <Container className="details cart" key={item.productID} >
+                                 <div className="card mb-3" style={{width: '1200px', height:'auto'}} key={item.productID}>
                                 <Row >
-                                    
-                                    <Col md-4>
+                                    <Col className="card" md-4>
                                         <Figure >
                                             <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
                                                 src={item.productImagePath} alt="" />
@@ -94,17 +93,19 @@ export class Cart extends Component {
                                         <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
                                         <br></br>
                                         <p STYLE="font-size:18px">{item.prodShortDesc}</p>
-                                        <div className="amount align"><button className="count" onClick={() => reduction(item.prodID)}> - </button>
+                                        <div className="amount align">
+                                            <button className="count" onClick={() => reduction(item.prodID)}> - </button>
                                             <span>{item.qty}</span>
-                                            <button className="count" onClick={() => increase(item.prodID)}> + </button></div>
+                                            <button className="count" onClick={() => increase(item.prodID)}> + </button>
+                                        </div>
                                     </Col>
                                     <Col md-1 className="text-center" >
                                         <br />
                                         <Button variant="danger" onClick={() => removeProduct(item.prodID)}> Remove </Button>
                                     </Col>
                                 </Row>
-
-                            </Container>
+                                </div>
+                            // </Container>
 
 
 
