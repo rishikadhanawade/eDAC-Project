@@ -7,43 +7,16 @@ export default class About extends React.Component {
     return (
       <div id='about'>
           <h1 style={{margin:'0 0 25px 0'}}>About</h1>
-       <p> NIKE Our mission is what drives us to do everything possible to
-        expand human potential. We do that by creating groundbreaking sport
-        innovations, by making our products more sustainably, by building a
-        creative and diverse global team and by making a positive impact in
-        communities where we live and work. Based in Beaverton, Oregon, NIKE,
-        Inc. includes the Nike, Converse, and Jordan brands.
-        NIKE Our mission is what drives us to do everything possible to
-        expand human potential. We do that by creating groundbreaking sport
-        innovations, by making our products more sustainably, by building a
-        creative and diverse global team and by making a positive impact in
-        communities where we live and work. Based in Beaverton, Oregon, NIKE,
-        Inc. includes the Nike, Converse, and Jordan brands.NIKE Our mission is what drives us to do everything possible to
-        expand human potential. We do that by creating groundbreaking sport
-        innovations, by making our products more sustainably, by building a
-        creative and diverse global team and by making a positive impact in
-        communities where we live and work. Based in Beaverton, Oregon, NIKE,
-        Inc. includes the Nike, Converse, and Jordan brands.NIKE Our mission is what drives us to do everything possible to
-        expand human potential. We do that by creating groundbreaking sport
-        innovations, by making our products more sustainably, by building a
-        creative and diverse global team and by making a positive impact in
-        communities where we live and work. Based in Beaverton, Oregon, NIKE,
-        Inc. includes the Nike, Converse, and Jordan brands.NIKE Our mission is what drives us to do everything possible to
-        expand human potential. We do that by creating groundbreaking sport
-        innovations, by making our products more sustainably, by building a
-        creative and diverse global team and by making a positive impact in
-        communities where we live and work. Based in Beaverton, Oregon, NIKE,
-        Inc. includes the Nike, Converse, and Jordan brands.NIKE Our mission is what drives us to do everything possible to
-        expand human potential. We do that by creating groundbreaking sport
-        innovations, by making our products more sustainably, by building a
-        creative and diverse global team and by making a positive impact in
-        communities where we live and work. Based in Beaverton, Oregon, NIKE,
-        Inc. includes the Nike, Converse, and Jordan brands.NIKE Our mission is what drives us to do everything possible to
-        expand human potential. We do that by creating groundbreaking sport
-        innovations, by making our products more sustainably, by building a
-        creative and diverse global team and by making a positive impact in
-        communities where we live and work. Based in Beaverton, Oregon, NIKE,
-        Inc. includes the Nike, Converse, and Jordan brands.</p>
+       <p> Welcome to [store name], your number one source for all things [product, ie: shoes, bags, dog treats]. 
+         We're dedicated to giving you the very best of [product], with a focus on [three characteristics, ie: dependability, customer service and uniqueness.]
+         Founded in [year] by [founder's name], [store name] has come a long way from its beginnings in a [starting location, ie: home office, toolshed, Houston, TX.]. 
+         When [store founder] first started out, his/her passion for [passion of founder, ie: helping other parents be more eco-friendly, providing the best equipment for his fellow musicians] 
+         drove him to [action, ie: do intense research, quit her day job], and gave him the impetus to turn hard work and inspiration into to a booming online store. 
+         We now serve customers all over [place, ie: the US, the world, the Austin area], and are thrilled to be a part of the [adjective, ie: quirky, eco-friendly, fair trade] 
+         wing of the [industry type, ie: fashion, baked goods, watches] industry.
+         We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+         <p>Sincerely,<br/>Name, [title, ie: CEO, Founder, etc.</p>
+        </p>
       </div>
     );
   }
