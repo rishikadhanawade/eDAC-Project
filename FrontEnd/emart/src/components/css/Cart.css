@@ -11,7 +11,7 @@ section .cart{
     height: 30px;
     border: 1px solid #555;
     outline: none;
-    background: transparent;
+    background: #000000a3;
     cursor: pointer;
 }
 

@@ -86,18 +86,28 @@ export class Cart extends Component {
                                         </Figure>
                                     </Col>
                                     <Col md-7>
-
+                                    
                                         <div>
                                             <h2>{item.prodName}</h2>
                                         </div>
                                         <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
                                         <br></br>
                                         <p STYLE="font-size:18px">{item.prodShortDesc}</p>
+                                       
+                                        <Row >
                                         <div className="amount align">
-                                            <button className="count" onClick={() => reduction(item.prodID)}> - </button>
-                                            <span>{item.qty}</span>
+                                            <Col md-4>
                                             <button className="count" onClick={() => increase(item.prodID)}> + </button>
+                                            </Col>
+                                            <Col md-4>
+                                            <span>{item.qty}</span>
+                                            </Col>
+                                            <Col md-4>
+                                            
+                                            <button className="count" onClick={() => reduction(item.prodID)}> - </button>
+                                            </Col>
                                         </div>
+                                        </Row>
                                     </Col>
                                     <Col md-1 className="text-center" >
                                         <br />
