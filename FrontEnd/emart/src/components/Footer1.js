@@ -13,7 +13,7 @@ export class Footer1 extends Component {
     render() {
         return (
             <header>
-                <footer className="footer-container fixed-bottom">
+                <footer className="footer-container">
                  <div className="container-fluid" style={{backgroundColor: '#343a40'}}>
                 <ul className="nav justify-content-center footer-ul">
                         <li className=""><a href="/"  className="nav-link px-2 text-light">Home</a></li>
