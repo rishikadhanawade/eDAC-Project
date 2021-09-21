@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+/* eslint-disable no-unused-vars */
+import React, { Component } from 'react'  
 import { DataContext } from '../Context'
 import { Link } from 'react-router-dom'
-//import '../css/Details.css'
+//import '../css/Details.css' 
 import '../css/Cart.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row, Image, Button, Card } from 'react-bootstrap';
@@ -9,7 +10,7 @@ import "react-bootstrap/dist/react-bootstrap.min.js";
 import Figure from 'react-bootstrap/Figure'
 //import '../css/Products.css'
 
-export class Cart extends Component {
+export class Cart extends Component { 
     static contextType = DataContext;
 
     componentDidMount() {
@@ -22,7 +23,7 @@ export class Cart extends Component {
         const k=JSON.parse(localStorage.getItem('currentCust'));
         console.log(k.custid);
         
-        if (cart.length != 0) {
+        if (cart.length !== 0) {
 
             cart.forEach(item => {
                 let Crt = {
@@ -63,7 +64,7 @@ export class Cart extends Component {
                     <div className="col-md-12 align-self-center">
                         <h5>Cart</h5>
                     </div>
-                    <div className="col-sm-12 empty-cart-cls text-center"> <img src="https://i.imgur.com/dCdflKN.png" width="130" height="130" className="img-fluid mb-4 mr-3" />
+                    <div className="col-sm-12 empty-cart-cls text-center"> <img src="https://i.imgur.com/dCdflKN.png" width="130" height="130" className="img-fluid mb-4 mr-3" alt=""/>
                         <h3><strong>Your Cart is Empty.</strong></h3>
                         <h4>Add something to make me happy :)</h4> <a href="/" className="btn btn-primary cart-btn-transform m-3" data-abc="true">Continue Shopping</a>
                     </div>
@@ -75,7 +76,7 @@ export class Cart extends Component {
             return (
                 <>
                     {
-                        cart.map(item => (
+                        cart.map(item => ( 
                             <Container className="App py-2 ">
 
                                 <Row className="" style={{border:'2px solid #000000'}}>
@@ -86,7 +87,9 @@ export class Cart extends Component {
                                             <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
                                                 src={item.productImagePath} alt="" />
                                         </Figure> */}
-                                        <img src={item.productImagePath} style={{height:'', width:''}} />
+
+                                        <img alt="" src={item.productImagePath} style={{height:'', width:''}}/>
+
 	                                </Card>
                                     </Container>
                                     </Col>

@@ -4,6 +4,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: white !important;
+    /* color: rgb(241, 18, 18); */
 }
 .card{
     width: 300px;

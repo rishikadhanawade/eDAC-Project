@@ -82,7 +82,7 @@ export class Home extends Component {
                                     </Link>
                                     <div className="content">
                                         <h4 style={{ marginTop: '50px' }}>
-                                            <Link text="black" to={`/${category.categoryName}`}>{category.categoryName}</Link>
+                                            <Link  to={`/${category.categoryName}`}>{category.categoryName}</Link>
                                             
                                         </h4>
 
