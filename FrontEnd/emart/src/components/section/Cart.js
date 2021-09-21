@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { DataContext } from '../Context'
 import { Link } from 'react-router-dom'
-import '../css/Details.css'
+//import '../css/Details.css'
 import '../css/Cart.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Col, Row, Image, Button } from 'react-bootstrap';
+import { Container, Col, Row, Image, Button, Card } from 'react-bootstrap';
 import "react-bootstrap/dist/react-bootstrap.min.js";
 import Figure from 'react-bootstrap/Figure'
-import '../css/Products.css'
+//import '../css/Products.css'
 
 export class Cart extends Component {
     static contextType = DataContext;
@@ -76,23 +76,33 @@ export class Cart extends Component {
                 <>
                     {
                         cart.map(item => (
-                            // <Container className="details cart" key={item.productID} >
-                                 <div className="card mb-3" style={{width: '1200px', height:'auto'}} key={item.productID}>
-                                <Row >
-                                    <Col className="card" md-4>
-                                        <Figure >
+                            <Container className="App py-2 ">
+
+                                <Row className="" style={{border:'2px solid #000000'}}>
+                                    <Col md-5>
+                                    <Container className="">
+	                                    <Card className="cardcart">
+		                                {/* <Figure >
                                             <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
                                                 src={item.productImagePath} alt="" />
-                                        </Figure>
+                                        </Figure> */}
+                                        <img src={item.productImagePath} style={{height:'', width:''}}/>
+	                                </Card>
+                                    </Container>
                                     </Col>
+<<<<<<< Updated upstream
                                     <Col md-7>
 
+=======
+                                    <Col md-6>
+>>>>>>> Stashed changes
                                         <div>
                                             <h2>{item.prodName}</h2>
                                         </div>
                                         <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
                                         <br></br>
                                         <p STYLE="font-size:18px">{item.prodShortDesc}</p>
+<<<<<<< Updated upstream
                                         <div className="amount align">
                                             <button className="count" onClick={() => reduction(item.prodID)}> - </button>
                                             <span>{item.qty}</span>
@@ -106,6 +116,22 @@ export class Cart extends Component {
                                 </Row>
                                 </div>
                             // </Container>
+=======
+
+		                                
+                                        <button className="addminus" onClick={() => reduction(item.prodID)}> - </button>
+		                                <span>{item.qty}</span>
+                                        <button className="addminus" onClick={() => increase(item.prodID)}> + </button>
+		                                
+
+                                        </Col>
+                                        <Col md-1 style={{marginRight:'10px'}}>
+                                        	<Button variant="danger" className="removebutton" onClick={() => removeProduct(item.prodID)}> Remove </Button>
+                                        </Col>
+                                        </Row>
+
+                                    </Container>
+>>>>>>> Stashed changes
 
 
 
