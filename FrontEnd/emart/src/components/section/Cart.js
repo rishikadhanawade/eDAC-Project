@@ -80,25 +80,31 @@ export class Cart extends Component {
                             <Container className="App py-2 ">
 
                                 <Row className="" style={{border:'2px solid #000000'}}>
-                                    <Col md-5>
-                                    <Container className="">
+                                    <Col >
+                                    <Container  >
 	                                    <Card className="">
 		                                {/* <Figure >
                                             <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
                                                 src={item.productImagePath} alt="" />
                                         </Figure> */}
+
                                         <img alt="" src={item.productImagePath} style={{height:'', width:''}}/>
+
 	                                </Card>
                                     </Container>
                                     </Col>
-                                    <Col md-7>
+                                    <Col >
 
                                         <div>
-                                            <h2>{item.prodName}</h2>
+                                            <h4>{item.prodName}</h4>
                                         </div>
-                                        <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
+                                        <p STYLE="font-size:21px">{item.prodShortDesc}</p>
                                         <br></br>
-                                        <p STYLE="font-size:18px">{item.prodShortDesc}</p>
+                                        <span STYLE="font-size:18px">Price:₹{item.mrpPrice}</span>
+                                        <br></br>
+                                        <span STYLE="font-size:18px, text-align:justify" >Card holders Price:₹{item.cardholdersPrice}</span>
+                                        <br></br>
+                                        <br></br>
 
 		                                
                                         <button className="addminus" onClick={() => reduction(item.prodID)}> - </button>
@@ -107,7 +113,7 @@ export class Cart extends Component {
 		                                
 
                                         </Col>
-                                        <Col md-1 style={{}}>
+                                        <Col >
                                         	<Button variant="danger" className="removebutton" onClick={() => removeProduct(item.prodID)}> Remove </Button>
                                         </Col>
                                         </Row>
