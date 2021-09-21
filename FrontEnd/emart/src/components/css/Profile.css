@@ -1,10 +1,17 @@
 .error {
     position: absolute;
-    color: red;
+    color: red; 
     font-size: 0.80rem;
   }
 
 .form-control:disabled, .form-control[readonly] {
     background-color:white;
     opacity: 1;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 6px;
+  color: rgb(5, 5, 5);
 }

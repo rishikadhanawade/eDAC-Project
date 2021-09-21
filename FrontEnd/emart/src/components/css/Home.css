@@ -56,3 +56,14 @@
     letter-spacing: 2px;
     margin: 15px 0;
 }
+
+.footerlinks {
+    /* a:link {color: $Hand3}; */
+    font-weight: 300;
+    font-family: secondary-font;
+    /* a:link {text-decoration:none; background-color:transparent; color: #FAF5F2;};
+    a:visited {text-decoration:none;background-color:transparent; color:#FAF5F2;};
+    a:hover {text-decoration:none;background-color:transparent; color:#FAF5F2;};
+    a:active {text-decoration:none;background-color:transparent; color:#FAF5F2;}; */
+    color: Hand3;
+}

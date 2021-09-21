@@ -5,7 +5,7 @@ import '../css/Products.css'
 import Figure from 'react-bootstrap/Figure'
 import { Container, Row, Form, Col, Button, Card } from 'react-bootstrap';
 
-
+ 
 export class Products extends Component {
     constructor(props) {
         super(props);
