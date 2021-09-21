@@ -85,7 +85,7 @@ export class DataProvider extends Component {
         if(k.eMCardNo==0)
         {
             const res = cart.reduce((prev, item) => {
-                return (prev + (item.mrpPrice * item.qty-0.1*(item.mrpPrice * item.qty)+50));
+                return (prev + ((item.mrpPrice *item.qty-0.1*(item.mrpPrice * item.qty)+50)));
             },0)
             this.setState({total: res})
         }
