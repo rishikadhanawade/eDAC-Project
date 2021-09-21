@@ -113,8 +113,6 @@ export class Cart extends Component {
 
                                     </Container>
 
-
-
                         ))
                     }
 
