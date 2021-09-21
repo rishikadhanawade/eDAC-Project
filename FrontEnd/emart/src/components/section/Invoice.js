@@ -127,12 +127,25 @@ class Invoice extends React.Component {
                                 </tr>))
                         }
                     </tbody>
-                </table><h4>Total Amount:  ₹ {total}</h4>
-                <h6 >Your e-Point A/c: {k.eMCardNo}</h6>
+                </table>
+                <div>
+                      
+                </div>
+                
+                <h3>Is Prime Member :  {k.eMCardNo?"Yes": "No"}</h3>
+                <div><h4>Total Amount:  ₹ {total}</h4>
+                <span style={{color:"red"}}>* ₹ 50 Delivery Charge</span>
+
+                {/*
+                {
+                    
+               
                 <h6>OP Bal: {k.eMartPoints}</h6>
                 <h6>Total ePts Credited: {total*0.1}</h6>
                 <h6>Redeemed today: {this.state.a}</h6>
                 <h6>CL Balance: {(k.eMartPoints)+(total*0.1)-(this.state.a)}</h6>
+                } */}
+                </div>
                 <div class="center-block">
                     {/* <input type="submit" value="Modify" class="invoice-button" /> <span>&nbsp;&nbsp;</span> */}
                     <Button variant="info"  onClick={this.home}>Cancel</Button> <span>&nbsp;&nbsp;&nbsp;</span>

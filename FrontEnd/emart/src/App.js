@@ -3,7 +3,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import Header from './components/Header'
 import Section from './components/Section'
 import {DataProvider} from './components/Context'
-import Footer from './components/Footer'
+import Footer1 from './components/Footer1'
 
 class App extends React.Component{
   render(){ 
@@ -13,7 +13,7 @@ class App extends React.Component{
           <Router>
             <Header/>
             <Section/>
-            <Footer/>
+            <Footer1/>
             {/* <Trial/> */}
           </Router>
         </div>

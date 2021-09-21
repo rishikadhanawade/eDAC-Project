@@ -1,3 +1,9 @@
+/* body{
+  display: flex;
+  flex-direction: column;
+  height: 100vw;
+} */
+
 .form-container {
     margin: 100px auto;
     width: 60%;
@@ -91,10 +97,10 @@
 }
 
 .form-label {
-    display: inline-block;
-    font-size: 1rem;
-    margin-bottom: 6px;
-    color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: rgb(255, 255, 255);
 }
 
 .form-input {
@@ -165,9 +171,20 @@
     padding: 0px 10px;
 }
 
-.footer-container {
-    font-size: 1rem;
-    /* margin: auto; */
-    /* margin-top: 10px; */
-    color: #fff;
+
+.footer-container{
+  background-color: #343a40;
+  width: 100vw;
+  height: 4rem;
+  margin-top: auto;
+}
+
+.footer-ul{
+  color: #fff;
+  /* font-size: 1rem; */
+  text-align: center;
+  line-height: 3rem;
+  margin: 0%;
+  padding: 0%;
+  
 }

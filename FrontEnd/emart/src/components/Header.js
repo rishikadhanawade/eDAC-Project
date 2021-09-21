@@ -36,8 +36,7 @@ export class Header extends Component {
                             <Nav.Link href="/Electronics">Electronics</Nav.Link>
                             <Nav.Link href="/Home Furniture">Home Furniture</Nav.Link>
                             <Nav.Link href="/Fashion">Fashion</Nav.Link>
-                            <Nav.Link href="/Sports">Sports</Nav.Link>
-                            <Nav.Link href="/Watches">Watches</Nav.Link>
+                    
                             
 
                         </Nav>

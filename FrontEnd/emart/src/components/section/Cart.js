@@ -76,35 +76,48 @@ export class Cart extends Component {
                 <>
                     {
                         cart.map(item => (
-                            <Container className="details cart" key={item.productID} >
-                                 
+                            // <Container className="details cart" key={item.productID} >
+                                 <div className="card mb-3" style={{width: '1200px', height:'auto'}} key={item.productID}>
                                 <Row >
-                                    
-                                    <Col md-4>
+                                    <Col className="card" md-4>
                                         <Figure >
                                             <Figure.Image className="shadow p-3 mb-5 bg-white rounded border border-light"
                                                 src={item.productImagePath} alt="" />
                                         </Figure>
                                     </Col>
                                     <Col md-7>
-
+                                    
                                         <div>
                                             <h2>{item.prodName}</h2>
                                         </div>
                                         <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
                                         <br></br>
+                                        <span STYLE="font-size:25px">CardHolder Price:₹{item.cardholdersPrice}</span>
+                                        <br></br>
                                         <p STYLE="font-size:18px">{item.prodShortDesc}</p>
-                                        <div className="amount align"><button className="count" onClick={() => reduction(item.prodID)}> - </button>
+                                       
+                                        <Row >
+                                        <div className="amount align">
+                                            <Col md-4>
+                                            <button className="count" onClick={() => increase(item.prodID)}> + </button>
+                                            </Col>
+                                            <Col md-4>
                                             <span>{item.qty}</span>
-                                            <button className="count" onClick={() => increase(item.prodID)}> + </button></div>
+                                            </Col>
+                                            <Col md-4>
+                                            
+                                            <button className="count" onClick={() => reduction(item.prodID)}> - </button>
+                                            </Col>
+                                        </div>
+                                        </Row>
                                     </Col>
                                     <Col md-1 className="text-center" >
                                         <br />
                                         <Button variant="danger" onClick={() => removeProduct(item.prodID)}> Remove </Button>
                                     </Col>
                                 </Row>
-
-                            </Container>
+                                </div>
+                            // </Container>
 
 
 
