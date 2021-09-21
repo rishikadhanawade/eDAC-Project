@@ -34,7 +34,6 @@ export class DataProvider extends Component {
             // localStorage.setItem('cartLen',x);
             this.setState({cart: [...cart,...data]}) //ye product ka jo literal object data me hai usko cart me daal raha hai 
             alert("Added Successfully")
-
         }
         else{
             alert("The Product had been already added to Cart")
