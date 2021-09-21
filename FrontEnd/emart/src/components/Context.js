@@ -81,7 +81,7 @@ export class DataProvider extends Component {
     getTotal = ()=>{
         const{cart,Dely,Discount} = this.state;
         const k=JSON.parse(localStorage.getItem('currentCust'));
-        if(k.eMCardNo==0)
+        if(k.eMCardNo===0)
         {
             const res = cart.reduce((prev, item) => {
                 return (prev + ((item.mrpPrice *item.qty+50)));
