@@ -1,10 +1,17 @@
-import React from 'react'
+
+import React, { useState } from 'react';
 import { useFormik } from 'formik'
 import * as yup from 'yup'
 import { Button } from 'react-bootstrap';
 function FormSignup({submitForm}) {
   const phoneRegExp = /[0-9]{10}/
 
+
+  const [isPrime, setIsPrime] = useState(false);
+
+  function setPrime() {
+    setIsPrime(true);
+  }
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -24,6 +31,9 @@ function FormSignup({submitForm}) {
       password: yup.string().min(6,"Password needs to be 6 characters or more").required("Password is required"),
       password2: yup.string().oneOf([yup.ref('password'), null], 'Passwords do not match')
     }),
+
+
+
     onSubmit: values => {
     //  lert(JSON.stringify(values)) a
       let CustDemo = {
@@ -32,7 +42,7 @@ function FormSignup({submitForm}) {
         "cust_PhoneNo":values.number,
         "cust_Password":values.password2,
         "cust_Email_ID":values.email,
-        "eMCardNo":Math.floor((Math.random()+1)*1000),
+        "eMCardNo": isPrime? Math.floor((Math.random()+1)*1000) : 0,
         "eMartPoints":500
       };
       let demo = JSON.stringify(CustDemo);
@@ -128,6 +138,7 @@ return (
           {...formik.getFieldProps("password2")}
         />
         {formik.touched.password2 && formik.errors.password2 ?<p style={{color:'red'}}>{formik.errors.password2}</p>:null}
+        <label className='form-label'>Check for prime membership : </label><input type="checkbox" name="" id="primemember" onClick={setPrime} label/>
       </div>
       <Button variant="warning" type='submit'>SignUp</Button>
       <span className='form-input-login'>

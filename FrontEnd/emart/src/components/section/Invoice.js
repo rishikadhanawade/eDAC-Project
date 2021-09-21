@@ -125,11 +125,17 @@ class Invoice extends React.Component {
                         }
                     </tbody>
                 </table>
+                <div>
+                      
+                </div>
+                
+                <h3>Is Prime Member :  {k.eMCardNo?"Yes": "No"}</h3>
+                <span style={{color:"red"}}>* ₹ 50 Delivery Charge</span>
                 <div><h4>Total Amount:  ₹ {total}</h4>
-                {/* if(k.eMCardNo!==0)
+                {/*
                 {
                     
-                <h6 >Your e-Point A/c: {k.eMCardNo}</h6>
+               
                 <h6>OP Bal: {k.eMartPoints}</h6>
                 <h6>Total ePts Credited: {total*0.1}</h6>
                 <h6>Redeemed today: {this.state.a}</h6>
