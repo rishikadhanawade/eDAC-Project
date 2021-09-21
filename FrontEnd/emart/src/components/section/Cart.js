@@ -90,33 +90,14 @@ export class Cart extends Component {
 	                                </Card>
                                     </Container>
                                     </Col>
-<<<<<<< Updated upstream
                                     <Col md-7>
 
-=======
-                                    <Col md-6>
->>>>>>> Stashed changes
                                         <div>
                                             <h2>{item.prodName}</h2>
                                         </div>
                                         <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
                                         <br></br>
                                         <p STYLE="font-size:18px">{item.prodShortDesc}</p>
-<<<<<<< Updated upstream
-                                        <div className="amount align">
-                                            <button className="count" onClick={() => reduction(item.prodID)}> - </button>
-                                            <span>{item.qty}</span>
-                                            <button className="count" onClick={() => increase(item.prodID)}> + </button>
-                                        </div>
-                                    </Col>
-                                    <Col md-1 className="text-center" >
-                                        <br />
-                                        <Button variant="danger" onClick={() => removeProduct(item.prodID)}> Remove </Button>
-                                    </Col>
-                                </Row>
-                                </div>
-                            // </Container>
-=======
 
 		                                
                                         <button className="addminus" onClick={() => reduction(item.prodID)}> - </button>
@@ -125,13 +106,12 @@ export class Cart extends Component {
 		                                
 
                                         </Col>
-                                        <Col md-1 style={{marginRight:'10px'}}>
+                                        <Col md-1 style={{}}>
                                         	<Button variant="danger" className="removebutton" onClick={() => removeProduct(item.prodID)}> Remove </Button>
                                         </Col>
                                         </Row>
 
                                     </Container>
->>>>>>> Stashed changes
 
 
 
