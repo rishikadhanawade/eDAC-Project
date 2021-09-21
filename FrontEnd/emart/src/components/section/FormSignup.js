@@ -138,7 +138,8 @@ return (
           {...formik.getFieldProps("password2")}
         />
         {formik.touched.password2 && formik.errors.password2 ?<p style={{color:'red'}}>{formik.errors.password2}</p>:null}
-        <label className='form-label'>Check for prime membership : </label><input type="checkbox" name="" id="primemember" onClick={setPrime} label/>
+        <label className='form-label'>Do you want prime membership : <span>&nbsp;</span></label>
+        <input type="checkbox" name="" style ={{marginTop:'20px'}}id="primemember" onClick={setPrime} label/>
       </div>
       <Button variant="warning" type='submit'>SignUp</Button>
       <span className='form-input-login'>

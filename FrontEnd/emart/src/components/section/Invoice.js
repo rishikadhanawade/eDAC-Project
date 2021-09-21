@@ -130,8 +130,9 @@ class Invoice extends React.Component {
                 </div>
                 
                 <h3>Is Prime Member :  {k.eMCardNo?"Yes": "No"}</h3>
-                <span style={{color:"red"}}>* ₹ 50 Delivery Charge</span>
                 <div><h4>Total Amount:  ₹ {total}</h4>
+                <span style={{color:"red"}}>* ₹ 50 Delivery Charge</span>
+
                 {/*
                 {
                     
