@@ -1,12 +1,14 @@
-section .cart{
+section .cart {
     position: relative;
     border: 1px solid #ccc;
 }
-.amount span{
+
+.amount span {
     color: rgb(228, 17, 17);
     padding: 0 20px;
 }
-.amount .count{
+
+.amount .count {
     width: 40px;
     height: 30px;
     border: 1px solid #555;
@@ -15,7 +17,7 @@ section .cart{
     cursor: pointer;
 }
 
-.addminus{
+.addminus {
     width: 40px;
     height: 30px;
     margin-left: 10px;
@@ -26,22 +28,25 @@ section .cart{
     background: #63615d;
     color: white;
 }
-.delete{
+
+.delete {
     position: absolute;
-    top:0;
+    top: 0;
     right: 5px;
     color: crimson;
     cursor: pointer;
     font-weight: 900;
 }
-.total{
+
+.total {
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.total a{
+
+.total a {
     text-decoration: none;
     background: #333;
     color: white;
@@ -49,14 +54,15 @@ section .cart{
     letter-spacing: 2px;
     padding: 10px 25px;
 }
-.total h3{
+
+.total h3 {
     margin-right: 50px;
     color: crimson;
     /* margin-right: 50px;
     color: rgb(255, 255, 255); */
 }
 
-.cart img{
+.cart img {
     max-width: 500px;
     width: 50%;
     height: 300%;
@@ -64,10 +70,12 @@ section .cart{
     display: block;
     object-fit: cover;
 }
-.colr{
+
+.colr {
     color: #feb402;
 }
 
-.removebutton{
-    margin-top: 10px;
+.removebutton {
+    margin-top: 25%;
+    margin-left: 50%;
 }
