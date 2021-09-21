@@ -81,10 +81,22 @@ export class DataProvider extends Component {
 
     getTotal = ()=>{
         const{cart,Dely,Discount} = this.state;
-        const res = cart.reduce((prev, item) => {
-            return (prev + (item.mrpPrice * item.qty));
-        },0)
-        this.setState({total: res})
+        const k=JSON.parse(localStorage.getItem('currentCust'));
+        if(k.eMCardNo==0)
+        {
+            const res = cart.reduce((prev, item) => {
+                return (prev + (item.mrpPrice * item.qty-0.1*(item.mrpPrice * item.qty)+50));
+            },0)
+            this.setState({total: res})
+        }
+        else
+        {
+            const res = cart.reduce((prev, item) => {
+                return (prev + (item.cardholdersPrice * item.qty-0.1*(item.cardholdersPrice * item.qty)+50));
+            },0)
+            this.setState({total: res})
+        }
+        
     };
     
     componentDidUpdate(previousProps, previousState) {

@@ -91,6 +91,7 @@ export class Cart extends Component {
                                             <h2>{item.prodName}</h2>
                                         </div>
                                         <span STYLE="font-size:25px">Price:₹{item.mrpPrice}</span>
+                                        <span STYLE="font-size:25px">CardHolder Price:₹{item.cardholdersPrice}</span>
                                         <br></br>
                                         <p STYLE="font-size:18px">{item.prodShortDesc}</p>
                                        
