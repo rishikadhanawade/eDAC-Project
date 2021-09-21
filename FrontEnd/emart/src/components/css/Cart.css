@@ -18,10 +18,13 @@ section .cart{
 .addminus{
     width: 40px;
     height: 30px;
-    border: 1px solid rgb(219, 201, 41);
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid rgb(219, 201, 41); */
     outline: none;
-    background: transparent;
     cursor: pointer;
+    background: #63615d;
+    color: white;
 }
 .delete{
     position: absolute;
@@ -63,4 +66,8 @@ section .cart{
 }
 .colr{
     color: #feb402;
+}
+
+.removebutton{
+    margin-top: 10px;
 }

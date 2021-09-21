@@ -110,11 +110,7 @@ export class Cart extends Component {
                                         	<Button variant="danger" className="removebutton" onClick={() => removeProduct(item.prodID)}> Remove </Button>
                                         </Col>
                                         </Row>
-
                                     </Container>
-
-
-
                         ))
                     }
 
@@ -136,8 +132,6 @@ export class Cart extends Component {
 
                                 </p> */}
                                 <h3>Total Amount:  ₹ {total}</h3>
-
-
                             </Col>
                         </Row>
                     </Container>
