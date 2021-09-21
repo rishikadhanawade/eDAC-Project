@@ -148,7 +148,7 @@ class Invoice extends React.Component {
                                     </tr>))
                             }
                         </tbody>
-                    </table>
+                    </table> 
                     <br />
                     <hr />
                     <br />
