@@ -1,4 +1,4 @@
-#contact{
+#contact {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -6,5 +6,9 @@
     padding: auto;
     margin: 50px 10px;
     text-overflow: scroll;
-    color:black
+    color: rgb(250, 244, 244);
+}
+
+.contactUs {
+    background-color: #343a40;
 }
