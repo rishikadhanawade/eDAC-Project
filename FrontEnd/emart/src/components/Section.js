@@ -21,12 +21,12 @@ import ProfilePage from './section/ProfilePage'
 import UserProfile from './section/UserProfile'
 import Logout from './section/Logout'
 //import Details from './section/Details'
-
+import './css/Section.css';
 
 export default class Section extends Component {
     render() {
         return (
-            <div style={{marginTop:'50px'}}>
+            <div className="section">
             <section>
                 <Route path="/" component={Home} exact />
                 {/* <Route path="" component={Products} exact /> */}
