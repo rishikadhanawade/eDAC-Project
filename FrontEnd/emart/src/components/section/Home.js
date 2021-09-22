@@ -16,26 +16,26 @@ export class Home extends Component {
     async componentWillMount() {
         const response = await fetch("http://localhost:8080/eMart/Category/DistinctCategories");
         const res = await response.json();
-         console.log(res);
-        this.setState({cate:res});
+        console.log(res);
+        this.setState({ cate: res });
     };
-    
+
     static contextType = DataContext;
-    
+
 
     render() {
         const { category, addCart } = this.context;
         return (
-            
+
             <div id="Home">
                 <Carousel style={{ width: '70%' }} >
                     <Carousel.Item interval={3000}>
-                    <a href="/Samsung/1">
-                        <img
-                            className="d-block w-100"
-                            src="./Images/electronicsBanner.jpg"
-                            alt="First slide"
-                        />
+                        <a href="/Samsung/1">
+                            <img
+                                className="d-block w-100"
+                                src="./Images/electronicsBanner.jpg"
+                                alt="First slide"
+                            />
                         </a>
                         <Carousel.Caption style={{ color: 'black' }}>
                             {/* <h3></h3> */}
@@ -43,26 +43,26 @@ export class Home extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
-                    
-                    <a href="/Four%20Seater/50">
-                        
-                        <img
-                            className="d-block w-100"
-                            src="./Images/homefurniturebanner4.jpg"
-                            alt="Second slide"
-                        />
-                    </a>
+
+                        <a href="/Four%20Seater/50">
+
+                            <img
+                                className="d-block w-100"
+                                src="./Images/homefurniturebanner4.jpg"
+                                alt="Second slide"
+                            />
+                        </a>
                         <Carousel.Caption style={{ color: 'black' }}>
                             {/* <h3></h3> */}
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                    <a href="/LifeStyle/61">
-                        <img
-                            className="d-block w-100 "
-                            src="./Images/horizontal-banner-online-fashion-sale.jpg"
-                            alt=""
-                        />
+                        <a href="/LifeStyle/61">
+                            <img
+                                className="d-block w-100 "
+                                src="./Images/horizontal-banner-online-fashion-sale.jpg"
+                                alt=""
+                            />
                         </a>
                         <Carousel.Caption style={{ color: 'black' }}>
                             {/* <h3></h3> */}
@@ -82,8 +82,8 @@ export class Home extends Component {
                                     </Link>
                                     <div className="content">
                                         <h4 style={{ marginTop: '50px' }}>
-                                            <Link  to={`/${category.categoryName}`}>{category.categoryName}</Link>
-                                            
+                                            <Link to={`/${category.categoryName}`}>{category.categoryName}</Link>
+
                                         </h4>
 
                                     </div>
@@ -94,8 +94,8 @@ export class Home extends Component {
                     </Row>
                 </Container>
                 <div>
+                </div>
             </div>
-        </div>
         )
     }
 }
