@@ -30,7 +30,7 @@ export class FashionsCategory extends Component {
                             <Col md={3}>
                                 <div className="">
                                     <label>
-                                    <h2 style={{fontFamily:"Times New Roman"}}><b>{this.props.greet}</b></h2>
+                                    <h2 id="italic"><b>{this.props.greet}</b></h2>
                                     </label>
                                 </div>
                             </Col>
@@ -41,8 +41,8 @@ export class FashionsCategory extends Component {
                                 <Form.Control id="filter2" placeholder="Price" />
                                 <Button type="submit" className="btn btn-dark"> Apply </Button>
                             </Col> */}
-                            <Col md={3}>
-                            </Col>
+                            {/* <Col md={3}>
+                            </Col> */}
                         </Row>
                     </Container>
                 </Form> 
