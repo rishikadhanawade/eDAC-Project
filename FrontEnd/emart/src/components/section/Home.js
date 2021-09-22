@@ -29,7 +29,7 @@ export class Home extends Component {
 
             <div id="Home">
                 <Carousel style={{ width: '70%' }} >
-                    <Carousel.Item interval={3000}>
+                    <Carousel.Item interval={2000}>
                         <a href="/Samsung/1">
                             <img
                                 className="d-block w-100"
@@ -71,16 +71,15 @@ export class Home extends Component {
                     </Carousel.Item>
                 </Carousel>
 
-
                 <Container style={{ marginTop: '20px' }}>
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-center ">
                         {
                             this.state.cate.map(category => (
                                 <div className="card">
                                     <Link to={`/${category.categoryName}`}>
                                         <img src={category.catImagePath} alt="" width="60" height="60" />
                                     </Link>
-                                    <div className="content">
+                                    <div className="content ">
                                         <h4 style={{ marginTop: '50px' }}>
                                             <Link to={`/${category.categoryName}`}>{category.categoryName}</Link>
 

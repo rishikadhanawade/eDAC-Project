@@ -1,4 +1,4 @@
-#about{
+#about {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -8,9 +8,14 @@
     color: black
 }
 
-hr{
+hr {
     border: 1px solid rgba(0, 0, 0, 0.596)
 }
+
+textarea {
+    resize: none;
+}
+
 
 /* table{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif

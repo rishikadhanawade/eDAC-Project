@@ -36,7 +36,7 @@ class Invoice extends React.Component {
             "amount": total * 100, // 2000 paise = INR 20, amount in paisa
             "name": "eMart",
             "description": "",
-            "image": "/your_logo.png",
+            // "image": "/your_logo.png",
             "handler": function (response) {
                 alert("Payment Successful");
                 return true;

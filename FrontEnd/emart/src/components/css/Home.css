@@ -40,6 +40,11 @@
     color: #333;
 }
 
+
+/* .tagclr {
+    color: #ffae00;
+} */
+
 .card h3 a:hover {
     color: crimson;
 }
