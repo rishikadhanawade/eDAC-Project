@@ -147,7 +147,7 @@ export class UserProfile extends React.Component {
                             {/* <h3>Personal Information</h3> */}
                             <Form onSubmit={this.onUpdateCust}>
                                 <br />
-                                <label className='form-label'>Name: </label>
+                                <label htmlFor="Name">Name: </label>
                                 <Field className="form-control" name="cust_Name" id="cnameTextbox" type="text" value={this.state.cust_Name} onChange={this.handleInputChange} disabled></Field>
                                 <ErrorMessage component="div" name="cust_Name" className="error"></ErrorMessage><br />
 

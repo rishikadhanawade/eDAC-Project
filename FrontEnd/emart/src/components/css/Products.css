@@ -61,3 +61,13 @@
     margin: 10px 0;
     text-align: center;
 }
+
+.fonting{
+    text-align: center;
+    
+}
+#italic {
+    font-style: italic;
+    color: #feb402;
+}
+ 
