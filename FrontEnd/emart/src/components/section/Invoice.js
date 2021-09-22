@@ -11,7 +11,7 @@ class Invoice extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { invoice: [], a: [], Razorpay: "", amount: "" };
+        this.state = { invoice: [], a: [], Razorpay: "", amount: "" ,bill:""};
         this.changeAmount = this.changeAmount.bind(this);
         this.openCheckout = this.openCheckout.bind(this);
     }
@@ -21,7 +21,8 @@ class Invoice extends React.Component {
             console.log(this.props.match.params.id);
             const response = await fetch("http://localhost:8080/eMart/Product/prodInvoice");
             const res = await response.json();
-            this.setState({ invoice: res });
+            this.setState({ invoice: res,  bill: Math.floor((Math.random()+1)*10000) });
+
         }
         else { }
         this.forceUpdate();
@@ -98,7 +99,7 @@ class Invoice extends React.Component {
                                 ContactUs: 8888-0088-00 ||  cs@emart.com
                             </div>
                             <div style={{ textAlign: 'right' }, { border: '2px dashed black' }} className="col-3">
-                                Tax Invoice #B L21057892213
+                                Tax Invoice #B Y2021-E{this.state.bill}
                             </div>
                         </div>
                     </div>
@@ -122,8 +123,8 @@ class Invoice extends React.Component {
                     <table class="table table-secondary table-hover">
                         <thead>
                             <tr style={{ textAlign: 'center' }}>
-                                <th scope="col">Invoice-id</th>
-                                <th scope="col">CustomerId</th>
+                                <th scope="col">Serial No.</th>
+                                {/* <th scope="col">CustomerId</th> */}
                                 <th scope="col">Product Name</th>
                                 <th scope="col">Qty</th>
                                 <th scope="col">ListPrice</th>
@@ -138,7 +139,7 @@ class Invoice extends React.Component {
 
                                     <tr>
                                         <th scope="row">{++invoiceOrderID}</th>
-                                        <td>{k.custid}</td>
+                                        {/* <td>{k.custid}</td> */}
                                         <td>{val.prodName}</td>
                                         <td>{val.qty}</td>
                                         <td>{val.mrpPrice}</td>
@@ -158,13 +159,13 @@ class Invoice extends React.Component {
                         <div className="col-5"></div>
                         <div className="col-3">
                         <table>
-                            <tbody>
+                            <tbody >
                                 <tr>
                                     <td>
-                                        <h5>Is Prime Member </h5>
+                                        <h5>Is Prime Member<span>&nbsp;</span> </h5>
                                     </td>
                                     <td>
-                                        <h6> :{k.eMCardNo ? "Yes" : "No"}</h6>
+                                        <h6> :{k.eMCardNo ? " Yes" : " No"}</h6>
                                     </td>
                                 </tr>
                                 <tr>
@@ -172,7 +173,7 @@ class Invoice extends React.Component {
                                         <h5>Delivery Charge</h5>
                                     </td>
                                     <td>
-                                        <h6>:₹ 50/-</h6>
+                                        <h6>: ₹ 50/-</h6>
                                     </td>
                                 </tr>
                                 <tr>
@@ -180,7 +181,7 @@ class Invoice extends React.Component {
                                         <h5>Total Amount</h5>
                                     </td>
                                     <td>
-                                        <h6>:₹ {total}/-</h6>
+                                        <h6>: ₹ {total}/-</h6>
                                     </td>
                                 </tr>
 
