@@ -51,7 +51,7 @@ export class Category extends Component {
                         this.state.cate.map(category => (
                             <div className="card">
                                 <Link to={`/Watches/${category.categoryName}`}>
-                                    <img src={category.catImagePath} alt="" width="60px" height="60px" />
+                                    <img src={category.catImagePath} alt="" width="100%" height="100%" />
                                 </Link>
                                 <div className="content">
                                     <h4 style={{ marginTop: '50px' }}> 

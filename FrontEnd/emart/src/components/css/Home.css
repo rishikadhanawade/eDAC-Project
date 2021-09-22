@@ -1,24 +1,27 @@
-#Home{
+#Home {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: white !important;
 }
-.card{
+
+.card {
     width: 300px;
     height: 350px;
     border: 2.5px solid rgb(255 175 0);
-    overflow: hidden;   
+    overflow: hidden;
     padding: 10px;
     box-shadow: 2px 8px 20px #ddd;
     margin: 10px;
     transition: 0.5s linear;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: bisque;
 }
-.card img{
+
+.card img {
     max-width: 300px;
     width: 100%;
     height: 100%;
@@ -26,24 +29,30 @@
     display: block;
     object-fit: contain;
 }
-.card h3{
+
+.card h3 {
     text-transform: uppercase;
     margin-top: 90px;
 }
-.card h3 a{
+
+.card h3 a {
     text-decoration: none;
     color: #333;
 }
-.card h3 a:hover{
+
+.card h3 a:hover {
     color: crimson;
 }
-.card span{
+
+.card span {
     color: crimson;
 }
-.card p{
+
+.card p {
     margin: 10px 0;
 }
-.card button{
+
+.card button {
     border: none;
     outline: none;
     background: #ffae00;
