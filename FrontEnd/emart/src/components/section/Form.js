@@ -16,7 +16,7 @@ const Form = () => {
         {/* <div className='form-content-left'>
           <img className='form-img' src='Images/em.jpg' alt='spaceship' />
         </div> */}
-        {!isSubmitted ? (<FormSignup submitForm={submitForm} />) : (<FormSuccess />)}
+        {isSubmitted ? (<FormSuccess />): (<FormSignup submitForm={submitForm} />) }
       </div>
 
   );

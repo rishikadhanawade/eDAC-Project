@@ -20,9 +20,9 @@ export class ProfilePage extends Component {
             <Tab eventKey="UserProfileKey" title="My Account">
               <UserProfile />
             </Tab>
-            <Tab eventKey="InvoiceDataKey" title="My Orders">
+            {/* <Tab eventKey="InvoiceDataKey" title="My Orders">
               <OrderDetail />
-            </Tab>
+            </Tab> */}
             <Tab eventKey="LogoutDataKey" title="Logout">
               <Logout />
             </Tab>

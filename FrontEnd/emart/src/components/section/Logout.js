@@ -40,12 +40,12 @@ export class Logout extends Component
                 </Card>
                 <Modal
                     show={this.state.show}
-                    onHide={this.onClose}
+                    // onHide={this.onClose}
                     backdrop="static"
                     keyboard={false}
                 >
                 <Modal.Header closeButton>
-                <Modal.Title>Alert</Modal.Title>
+                <Modal.Title></Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                          Successfully logged out..!! Come back soon..!! 

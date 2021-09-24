@@ -2,7 +2,8 @@
 import React, { Component } from 'react'
 
 
-export const DataContext = React.createContext();
+export const DataContext = React.createContext(); 
+//
 
 export class DataProvider extends Component {
 
@@ -18,7 +19,11 @@ export class DataProvider extends Component {
 
 
     addCart = (id) =>{
-        console.log(id);
+
+        const isLoggedIn=localStorage.getItem("isLoggedIn")
+        if(isLoggedIn===true)
+        {
+            console.log(id);
         const {product, cart} = this.state;
         console.log(product);
         //agar naya product hua to check is true
@@ -38,6 +43,12 @@ export class DataProvider extends Component {
         else{
             alert("The Product had been already added to Cart")
         }
+        }
+        else
+        {
+            alert("Please Login for add to Cart")
+        }
+        
     };
 
     reduction = id =>{

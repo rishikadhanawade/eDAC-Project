@@ -51,7 +51,7 @@ function FormSignup({submitForm}) {
         method: 'POST',
         headers: { 'Content-type': 'application/json' },
         body: demo
-      }).then(r => { r.json() }).then(res => {
+      }).then( r => {  r.json() }).then(res => {
         if (res) {
           this.setState({ message: 'You have been Registered' });
         }
