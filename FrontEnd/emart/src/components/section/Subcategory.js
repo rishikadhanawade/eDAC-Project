@@ -32,19 +32,19 @@ export class Subcategory extends Component {
                             <Col md={3}>
                                 <div className="">
                                     <label>
-                                    <h2 style={{fontFamily:"Times New Roman"}}><b>{this.props.greet}</b></h2>
+                                    <h2 id='italic'><b>{this.props.greet}</b></h2>
                                     </label>
                                 </div>
                             </Col>
-                            <Col xs="auto" className="">
+                            {/* <Col xs="auto" className="">
                                 <Form.Label htmlFor="brand" srOnly className="">Brand</Form.Label>
                                 <Form.Control id="filter1" placeholder="Brand" />
-                                {/* <Form.Label htmlFor="price" srOnly className=""> Price </Form.Label>
-                                <Form.Control id="filter2" placeholder="Price" /> */}
+                                <Form.Label htmlFor="price" srOnly className=""> Price </Form.Label>
+                                <Form.Control id="filter2" placeholder="Price" />
                                 <Button type="submit" className="btn btn-dark"> Apply </Button>
                             </Col>
                             <Col md={3}>
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Container>
                 </Form>

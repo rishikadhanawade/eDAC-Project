@@ -5,7 +5,7 @@ class LoginSuccess extends React.Component{
  
     componentWillMount(){
         localStorage.setItem('isLoggedIn',true);
-        window.location.href='/';
+         window.location.href='/';
 
 
     };

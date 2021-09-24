@@ -164,11 +164,11 @@ export class UserProfile extends React.Component {
                                 <ErrorMessage component="div" name="cust_Email_ID" className="error"></ErrorMessage><br />
 
                                 <label htmlFor="eMCard No.">eMCard No: </label>
-                                <Field className="form-control" name="eMCardNo" id="eMCardTextbox" type="number" value={this.state.eMCardNo} disabled></Field>
+                                <Field className="form-control" name="eMCardNo" id="eMCardTextbox" type="number" value={this.state.eMCardNo?this.state.eMCardNo:null} disabled></Field>
                                 <ErrorMessage component="div" name="eMCardNo" className="error"></ErrorMessage><br />
 
                                 <label htmlFor="ePoints">ePoints Balance: </label>
-                                <Field className="form-control" name="eMartPoints" id="ePointsTextbox" type="number" value={this.state.eMartPoints} disabled></Field>
+                                <Field className="form-control" name="eMartPoints" id="ePointsTextbox" type="number" value={this.state.eMCardNo?this.state.eMartPoints:null} disabled></Field>
                                 <ErrorMessage component="div" name="eMartPoints" className="error"></ErrorMessage><br />
 
                                 <button className="btn btn-info" id="editButton" type="button" onClick={this.onEditCust} >Edit</button>
