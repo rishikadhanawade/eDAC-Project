@@ -10,7 +10,7 @@ import { DataContext } from "../Context";
 class Invoice extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { invoice: [], a: [], Razorpay: "", amount: "", bill: "" };
+        this.state = { invoice: [], a: [], Razorpay: "", amount: "", bill: "" , date:""};
         this.changeAmount = this.changeAmount.bind(this);
         this.openCheckout = this.openCheckout.bind(this);
     }
@@ -25,6 +25,7 @@ class Invoice extends React.Component {
             this.setState({
                 invoice: res,
                 bill: Math.floor((Math.random() + 1) * 10000),
+                date:new Date( ).toLocaleString()
             });
         } else {
         }
@@ -101,11 +102,17 @@ class Invoice extends React.Component {
                             <div className="col-7">
                                 ContactUs: 8888-0088-00 || cs@emart.com
                             </div>
+                    
                             <div
                                 style={({ textAlign: "right" }, { border: "2px dashed black" })}
                                 className="col-3"
                             >
-                                Tax Invoice #B Y2021-E{this.state.bill}
+                                <b>Tax Invoice: </b>  Y2021-E{this.state.bill}
+                                <br/>
+                                <b>Date: </b> {this.state.date}
+                            </div>
+                            <div textAlign="Right">
+                            
                             </div>
                         </div>
                     </div>

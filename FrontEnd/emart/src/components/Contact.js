@@ -65,7 +65,7 @@ export default class Contact extends React.Component {
                     </p>
                     <h5>Address</h5>
                     <p>
-                        VITA edac course , Mumbai - 400104, Maharashtra
+                        Mumbai - 400104, Maharashtra
                     </p>
                 </div>
             </div>
