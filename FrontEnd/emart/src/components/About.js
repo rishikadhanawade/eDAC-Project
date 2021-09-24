@@ -14,7 +14,9 @@ export default class About extends React.Component {
          We now serve customers all over Mumbai,India  and are thrilled to be a part of the fair trade
          wing of the industry type, ie: Electronics, Furnitures, fashion, Sports Equipment, watches .
          We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+
          <p>Sincerely,<br/> 7 Wonderz, e-Volutioners eDAC- May 2021</p>
+
         </p>
       </div>
     );

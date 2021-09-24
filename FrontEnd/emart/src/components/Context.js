@@ -104,11 +104,10 @@ export class DataProvider extends Component {
         {
             
             const res = cart.reduce((prev, item) => {
-                return (prev + (item.cardholdersPrice * item.qty+50));
+                return (prev + (item.cardholdersPrice * item.qty +50));
             },0)
             this.setState({total: res})
         }
-        
     };
     
     componentDidUpdate(previousProps, previousState) {
