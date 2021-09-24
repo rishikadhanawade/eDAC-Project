@@ -20,7 +20,8 @@ export class DataProvider extends Component {
 
     addCart = (id) =>{
 
-        const isLoggedIn=localStorage.getItem("isLoggedIn")
+        const isLoggedIn=JSON.parse(localStorage.getItem("isLoggedIn"))
+        console.log(typeof(isLoggedIn))
         if(isLoggedIn===true)
         {
             console.log(id);
